@@ -1,0 +1,2895 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/futurest/dist/styles.css" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="/futurest/image/favicon.svg" />
+    <link rel="stylesheet" href="/futurest/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>Futurest</title>
+  </head>
+  <body>
+    <div class="relative">
+      <!-- header -->
+      <div>
+        <div class="hidden">
+          <div id="toggleDiv">
+            <div class="absolute w-full">
+              <div class="h-dvh bg-black/60 flex justify-center items-center">
+                <div
+                  class="content-container p-[48px] flex flex-col justify-center items-center gap-[32px] w-[582px] h-[547px] bg-[#101010] rounded-[32px] border-[4px] border-white/5 max-md:mx-[7.8vw] max-sm:mx-[16px] max-xbm:p-[11vw] max-xbm:px-0 max-xbm:gap-[15px] max-xbm:h-min"
+                >
+                  <div
+                    class="text-center flex flex-col gap-[16px] max-xbm:px-[11vw]"
+                  >
+                    <h2
+                      class="text-[#fff] text-[32px] leading-[38px] font-[700] max-lg:text-[24px] max-xs:text-[16px] max-md:leading-[36px]"
+                    >
+                      Stay Tuned!
+                    </h2>
+                    <p
+                      class="text-[#747474] text-[20px] leading-[30px] font-[600] max-lg:text-[14px] max-xs:text-[14px] max-md:leading-[21px]"
+                    >
+                      Scan to download our app to always be first!
+                    </p>
+                  </div>
+                  <div>
+                    <img
+                      src="/futurest/image/qr.svg"
+                      alt=""
+                      class="w-[240px] h-[240px]"
+                    />
+                  </div>
+                  <div
+                    class="text-center flex flex-col gap-[16px] max-xbm:px-[11vw]"
+                  >
+                    <p
+                      class="text-[#747474] text-[16px] leading-[24px] font-[400] max-xs:text-[16px] max-md:leading-[24px]"
+                    >
+                      Or Follow the link below
+                    </p>
+                    <p
+                      class="text-[#FF842C] text-[16px] leading-[21px] font-[600] max-xs:text-[16px] max-md:leading-[21px]"
+                    >
+                      Download the app!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          id="navbar"
+          class="fixed top-0 z-[100] w-full h-[110px] flex justify-center items-center bg-upGradient"
+        >
+          <div
+            class="w-[1440px] max-xxl:w-full flex justify-between px-[60px] max-md:px-[7.8vw]"
+          >
+            <div class="flex items-center max-sm:w-[110px]">
+              <a href="/futurest/index.html">
+                <img
+                  src="/futurest/image/Logo.svg"
+                  alt="Logo"
+                  class="w-[158px]"
+                />
+              </a>
+            </div>
+            <div class="flex gap-[35px] max-lg:hidden max-xxl:gap-[2.4vw]">
+              <div
+                class="flex items-center gap-[48px] list-none px-[24px] w-[486px] h-[48px] text-white text-[16px] font-[700] leading-[24px] bg-[white]/[0.08] backdrop-blur-sm rounded-[112px] border-[1px] border-[var(--border-color)] max-xxl:w-[33.75vw] max-xxl:px-[1.6vw] max-xxl:gap-[3.3vw]"
+              >
+                <a href="/" class="cursor-pointer max-xxl:text-[1.1vw]">Feed</a>
+                <a href="/" class="cursor-pointer max-xxl:text-[1.1vw]"
+                  >Worldwide</a
+                >
+                <a href="/" class="cursor-pointer max-xxl:text-[1.1vw]"
+                  >Promocodes</a
+                >
+                <a href="/" class="cursor-pointer max-xxl:text-[1.1vw]"
+                  >About us</a
+                >
+              </div>
+              <div
+                class="flex gap-[16px] items-center w-[382px] h-[48px] max-xxl:w-w-full max-xxl:gap-[1.1vw] max-xxl:w-[30vw]"
+              >
+                <div
+                  class="flex justify-between items-center px-[24px] w-[254px] h-[48px] bg-[white]/[0.08] backdrop-blur-sm rounded-[112px] border-[1px] border-[var(--border-color)] max-xxl:px-[1.6vw] max-xxl:w-[18vw] cursor-pointer"
+                >
+                  <a
+                    href="/"
+                    class="text-white font-[700] leading-[24px] max-xxl:text-[1.1vw]"
+                  >
+                    Become a Organizator
+                  </a>
+                  <img src="/futurest/image/Icon33.svg" alt="icon" />
+                </div>
+                <div
+                  class="toggleButton cursor-pointer flex flex-cal flex-wrap justify-center items-center w-[48px] h-[48px] bg-[white]/[0.08] backdrop-blur-sm rounded-[112px] border-[1px] border-[var(--border-color)]"
+                >
+                  <img
+                    src="/futurest/image/google-play.svg"
+                    alt="/"
+                    class="w-5 h-5 menu-shop-img"
+                  />
+                </div>
+                <div
+                  class="toggleButton cursor-pointer flex flex-cal flex-wrap justify-center items-center w-[48px] h-[48px] bg-[white]/[0.08] backdrop-blur-sm rounded-[112px] border-[1px] border-[var(--border-color)]"
+                >
+                  <img
+                    src="/futurest/image/apple.svg"
+                    alt="/"
+                    class="w-5 h-5 menu-shop-img"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="hidden max-lg:block">
+              <div class="flex gap-[16px] max-md:gap-[2vw]">
+                <div>
+                  <div
+                    class="cursor-pointer flex flex-cal flex-wrap justify-center items-center w-[48px] h-[48px] bg-[white]/[0.08] backdrop-blur-sm rounded-[112px] border-[1px] border-[var(--border-color)]"
+                  >
+                    <div id="hamburger" class="hamburger">
+                      <div class="hamburger-line line1"></div>
+                      <div class="hamburger-line line2"></div>
+                      <div class="hamburger-line line3"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="max-sm:hidden">
+                  <div
+                    class="toggleButton cursor-pointer flex flex-cal flex-wrap justify-center items-center w-[48px] h-[48px] bg-[white]/[0.08] backdrop-blur-sm rounded-[112px] border-[1px] border-[var(--border-color)]"
+                  >
+                    <img
+                      src="/futurest/image/apple.svg"
+                      alt="/"
+                      class="w-5 h-5 menu-shop-img"
+                    />
+                  </div>
+                </div>
+                <div class="max-sm:hidden">
+                  <div
+                    class="toggleButton cursor-pointer flex flex-cal flex-wrap justify-center items-center w-[48px] h-[48px] bg-[white]/[0.08] backdrop-blur-sm rounded-[112px] border-[1px] border-[var(--border-color)]"
+                  >
+                    <img
+                      src="/futurest/image/google-play.svg"
+                      alt="/"
+                      class="w-5 h-5 menu-shop-img"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- header -->
+      <!-- header menu -->
+      <div
+        id="menu"
+        class="absolute top-0 left-0 z-50 bg-[#101010] w-full h-dvh"
+      >
+        <div
+          class="flex flex-col gap-[48px] justify-center items-center h-full"
+        >
+          <div
+            class="flex justify-between items-center px-[24px] w-[341px] h-[60px] bg-[white]/[0.08] backdrop-blur-sm rounded-[112px] border-[1px] border-[var(--border-color)] cursor-pointer"
+          >
+            <a
+              href="/"
+              class="text-white text-[24px] font-[700] leading-[24px]"
+            >
+              Become a Organizator
+            </a>
+            <img src="/futurest/image/Icon33.svg" alt="icon" />
+          </div>
+          <div>
+            <a
+              href="#"
+              class="cursor-pointer text-white text-[24px] font-[700] leading-[36px]"
+              >Feed</a
+            >
+          </div>
+          <div>
+            <a
+              href="#"
+              class="cursor-pointer text-white text-[24px] font-[700] leading-[36px]"
+              >Worldwide</a
+            >
+          </div>
+          <div>
+            <a
+              href="#"
+              class="cursor-pointer text-white text-[24px] font-[700] leading-[36px]"
+              >Promocodes</a
+            >
+          </div>
+          <div>
+            <a
+              href="#"
+              class="cursor-pointer text-white text-[24px] font-[700] leading-[36px]"
+              >About us</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- header menu -->
+      <!-- slider -->
+      <div>
+        <div class="swiper mySwiper relative">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="w-full h-[760px] flex justify-center">
+                <img
+                  src="/futurest/image/addele.svg.svg"
+                  alt=""
+                  class="object-cover"
+                />
+                <div
+                  class="absolute bottom-0 flex justify-between items-center w-[1440px] max-xxl:w-full px-[60px] py-[24px] bg-downGradient max-md:px-[16px]"
+                >
+                  <div>
+                    <h2
+                      class="text-[#fff] text-[24px] leading-[36px] font-[700] max-md:text-[16px]"
+                    >
+                      Adele in Munich
+                    </h2>
+                    <p
+                      class="text-[#fff] text-[14px] leading-[21px] font-[400] max-md:text-[10px]"
+                    >
+                      Aug 2, 4, 6, 12
+                    </p>
+                  </div>
+                  <div
+                    class="cursor-pointer flex items-center justify-center gap-[8px] w-[127px] h-[40px] text-white text-[14px] font-[600] leading-[19px] bg-[white]/[0.08] backdrop-blur-sm rounded-[8px] border-[1px] border-[var(--border-color)] max-md:bg-transparent max-md:border-none max-md:backdrop-opacity-0 max-md:justify-end"
+                  >
+                    <button
+                      class="text-[14px] font-[600] font-sans leading-[19px]"
+                    >
+                      Get Info
+                    </button>
+                    <img
+                      src="/futurest/image/arrow-right.svg"
+                      alt="arrow"
+                      class="w-[24px] h-[24px] object-cover"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="w-full h-[760px] flex justify-center">
+                <img
+                  src="/futurest/image/addele.svg.svg"
+                  alt=""
+                  class="object-cover"
+                />
+                <div
+                  class="absolute bottom-0 flex justify-between items-center w-[1440px] max-xxl:w-full px-[60px] py-[24px] bg-downGradient max-md:px-[16px]"
+                >
+                  <div>
+                    <h2
+                      class="text-[#fff] text-[24px] leading-[36px] font-[700] max-md:text-[16px]"
+                    >
+                      Adele in Munich
+                    </h2>
+                    <p
+                      class="text-[#fff] text-[14px] leading-[21px] font-[400] max-md:text-[10px]"
+                    >
+                      Aug 2, 4, 6, 12
+                    </p>
+                  </div>
+                  <div
+                    class="cursor-pointer flex items-center justify-center gap-[8px] w-[127px] h-[40px] text-white text-[14px] font-[600] leading-[19px] bg-[white]/[0.08] backdrop-blur-sm rounded-[8px] border-[1px] border-[var(--border-color)] max-md:bg-transparent max-md:border-none max-md:backdrop-opacity-0 max-md:justify-end"
+                  >
+                    <button
+                      class="text-[14px] font-[600] font-sans leading-[19px]"
+                    >
+                      Get Info
+                    </button>
+                    <img
+                      src="/futurest/image/arrow-right.svg"
+                      alt="arrow"
+                      class="w-[24px] h-[24px] object-cover"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="w-full h-[760px] flex justify-center">
+                <img
+                  src="/futurest/image/addele.svg.svg"
+                  alt=""
+                  class="object-cover"
+                />
+                <div
+                  class="absolute bottom-0 flex justify-between items-center w-[1440px] max-xxl:w-full px-[60px] py-[24px] bg-downGradient max-md:px-[16px]"
+                >
+                  <div>
+                    <h2
+                      class="text-[#fff] text-[24px] leading-[36px] font-[700] max-md:text-[16px]"
+                    >
+                      Adele in Munich
+                    </h2>
+                    <p
+                      class="text-[#fff] text-[14px] leading-[21px] font-[400] max-md:text-[10px]"
+                    >
+                      Aug 2, 4, 6, 12
+                    </p>
+                  </div>
+                  <div
+                    class="cursor-pointer flex items-center justify-center gap-[8px] w-[127px] h-[40px] text-white text-[14px] font-[600] leading-[19px] bg-[white]/[0.08] backdrop-blur-sm rounded-[8px] border-[1px] border-[var(--border-color)] max-md:bg-transparent max-md:border-none max-md:backdrop-opacity-0 max-md:justify-end"
+                  >
+                    <button
+                      class="text-[14px] font-[600] font-sans leading-[19px]"
+                    >
+                      Get Info
+                    </button>
+                    <img
+                      src="/futurest/image/arrow-right.svg"
+                      alt="arrow"
+                      class="w-[24px] h-[24px] object-cover"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="w-full h-[760px] flex justify-center">
+                <img
+                  src="/futurest/image/addele.svg.svg"
+                  alt=""
+                  class="object-cover"
+                />
+                <div
+                  class="absolute bottom-0 flex justify-between items-center w-[1440px] max-xxl:w-full px-[60px] py-[24px] bg-downGradient max-md:px-[16px]"
+                >
+                  <div>
+                    <h2
+                      class="text-[#fff] text-[24px] leading-[36px] font-[700] max-md:text-[16px]"
+                    >
+                      Adele in Munich
+                    </h2>
+                    <p
+                      class="text-[#fff] text-[14px] leading-[21px] font-[400] max-md:text-[10px]"
+                    >
+                      Aug 2, 4, 6, 12
+                    </p>
+                  </div>
+                  <div
+                    class="cursor-pointer flex items-center justify-center gap-[8px] w-[127px] h-[40px] text-white text-[14px] font-[600] leading-[19px] bg-[white]/[0.08] backdrop-blur-sm rounded-[8px] border-[1px] border-[var(--border-color)] max-md:bg-transparent max-md:border-none max-md:backdrop-opacity-0 max-md:justify-end"
+                  >
+                    <button
+                      class="text-[14px] font-[600] font-sans leading-[19px]"
+                    >
+                      Get Info
+                    </button>
+                    <img
+                      src="/futurest/image/arrow-right.svg"
+                      alt="arrow"
+                      class="w-[24px] h-[24px] object-cover"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="w-full h-[760px] flex justify-center">
+                <img
+                  src="/futurest/image/addele.svg.svg"
+                  alt=""
+                  class="object-cover"
+                />
+                <div
+                  class="absolute bottom-0 flex justify-between items-center w-[1440px] max-xxl:w-full px-[60px] py-[24px] bg-downGradient max-md:px-[16px]"
+                >
+                  <div>
+                    <h2
+                      class="text-[#fff] text-[24px] leading-[36px] font-[700] max-md:text-[16px]"
+                    >
+                      Adele in Munich
+                    </h2>
+                    <p
+                      class="text-[#fff] text-[14px] leading-[21px] font-[400] max-md:text-[10px]"
+                    >
+                      Aug 2, 4, 6, 12
+                    </p>
+                  </div>
+                  <div
+                    class="cursor-pointer flex items-center justify-center gap-[8px] w-[127px] h-[40px] text-white text-[14px] font-[600] leading-[19px] bg-[white]/[0.08] backdrop-blur-sm rounded-[8px] border-[1px] border-[var(--border-color)] max-md:bg-transparent max-md:border-none max-md:backdrop-opacity-0 max-md:justify-end"
+                  >
+                    <button
+                      class="text-[14px] font-[600] font-sans leading-[19px]"
+                    >
+                      Get Info
+                    </button>
+                    <img
+                      src="/futurest/image/arrow-right.svg"
+                      alt="arrow"
+                      class="w-[24px] h-[24px] object-cover"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="w-full h-[760px] flex justify-center">
+                <img
+                  src="/futurest/image/addele.svg.svg"
+                  alt=""
+                  class="object-cover"
+                />
+                <div
+                  class="absolute bottom-0 flex justify-between items-center w-[1440px] max-xxl:w-full px-[60px] py-[24px] bg-downGradient max-md:px-[16px]"
+                >
+                  <div>
+                    <h2
+                      class="text-[#fff] text-[24px] leading-[36px] font-[700] max-md:text-[16px]"
+                    >
+                      Adele in Munich
+                    </h2>
+                    <p
+                      class="text-[#fff] text-[14px] leading-[21px] font-[400] max-md:text-[10px]"
+                    >
+                      Aug 2, 4, 6, 12
+                    </p>
+                  </div>
+                  <div
+                    class="cursor-pointer flex items-center justify-center gap-[8px] w-[127px] h-[40px] text-white text-[14px] font-[600] leading-[19px] bg-[white]/[0.08] backdrop-blur-sm rounded-[8px] border-[1px] border-[var(--border-color)] max-md:bg-transparent max-md:border-none max-md:backdrop-opacity-0 max-md:justify-end"
+                  >
+                    <button
+                      class="text-[14px] font-[600] font-sans leading-[19px]"
+                    >
+                      Get Info
+                    </button>
+                    <img
+                      src="/futurest/image/arrow-right.svg"
+                      alt="arrow"
+                      class="w-[24px] h-[24px] object-cover"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="w-full h-[760px] flex justify-center">
+                <img
+                  src="/futurest/image/addele.svg.svg"
+                  alt=""
+                  class="object-cover"
+                />
+                <div
+                  class="absolute bottom-0 flex justify-between items-center w-[1440px] max-xxl:w-full px-[60px] py-[24px] bg-downGradient max-md:px-[16px]"
+                >
+                  <div>
+                    <h2
+                      class="text-[#fff] text-[24px] leading-[36px] font-[700] max-md:text-[16px]"
+                    >
+                      Adele in Munich
+                    </h2>
+                    <p
+                      class="text-[#fff] text-[14px] leading-[21px] font-[400] max-md:text-[10px]"
+                    >
+                      Aug 2, 4, 6, 12
+                    </p>
+                  </div>
+                  <div
+                    class="cursor-pointer flex items-center justify-center gap-[8px] w-[127px] h-[40px] text-white text-[14px] font-[600] leading-[19px] bg-[white]/[0.08] backdrop-blur-sm rounded-[8px] border-[1px] border-[var(--border-color)] max-md:bg-transparent max-md:border-none max-md:backdrop-opacity-0 max-md:justify-end"
+                  >
+                    <button
+                      class="text-[14px] font-[600] font-sans leading-[19px]"
+                    >
+                      Get Info
+                    </button>
+                    <img
+                      src="/futurest/image/arrow-right.svg"
+                      alt="arrow"
+                      class="w-[24px] h-[24px] object-cover"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!-- slider -->
+      <!-- search -->
+      <div>
+        <div class="w-full h-[460px] flex justify-center">
+          <div
+            class="w-[1440px] max-xxl:w-full relative flex items-center justify-center"
+          >
+            <div>
+              <div class="opacity-[10%] w-[1388px] h-[460px] max-xxl:w-full">
+                <img
+                  src="/futurest/image/search-background.svg"
+                  alt="circles"
+                  class="w-[100vw] max-md:hidden h-[460px]"
+                />
+                <img
+                  src="/futurest/image/circles-search-mobile.svg"
+                  alt=""
+                  class="hidden max-md:block w-[100vw] h-[460px]"
+                />
+              </div>
+            </div>
+            <div
+              class="absolute h-[250px] flex flex-col gap-[16px] justify-center items-start"
+            >
+              <div class="flex justify-center">
+                <div
+                  class="overflow-hidden relative inline-block w-[942px] h-[81px] px-[32px] py-[16px] bg-white/[5%] rounded-[120px] border border-white/[15%] max-lg:w-[91vw] max-md:h-[56px] max-md:py-0 max-md:px-[12px]"
+                >
+                  <div class="flex h-full justify-between items-center">
+                    <div class="w-full flex justify-between items-center">
+                      <input
+                        type="text"
+                        id="searchInput"
+                        class="text-input text-white bg-transparent w-full h-full outline-none"
+                      />
+                      <button
+                        class="w-[47px] h-[47px] flex justify-center items-center bg-button-text-orange rounded-65px bg-[var(--button-text-orange)] rounded-[64px] max-md:w-[36px] max-md:h-[32px]"
+                        aria-label="Search"
+                      >
+                        <img
+                          src="/futurest/image/search-icon.svg"
+                          alt="Search Icon"
+                          class="max-md:w-[16px] max-md:h-[16px]"
+                        />
+                      </button>
+                    </div>
+                    <div
+                      class="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-center items-start pointer-events-none transition duration-300 ease-in-out"
+                    >
+                      <span
+                        id="redText"
+                        class="block text-left pl-[32px] transition ease-in-out text-white text-[16px] font-[700] leading-[24px] max-md:pl-[24px] max-md:text-[14px]"
+                        >Location, Event, Anything</span
+                      >
+                      <span
+                        id="greenText"
+                        class="block text-left pl-[32px] transition duration-300 ease-in-out text-[#AAAAAA] text-[14px] font-[400] leading-[21px] max-md:pl-[24px] max-md:text-[10px]"
+                        >You want to have fun?</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="max-w-[942px] px-[12px] flex flex-col justify-center gap-[16px] max-lg:w-[91vw]"
+              >
+                <div class="flex justify-between">
+                  <p
+                    class="text-[#fff] text-[16px] font-[700] leading-[24px] max-md:text-[14px]"
+                  >
+                    Top searches
+                  </p>
+                  <button
+                    class="text-[#FF842C] font-[600] font-sans text-[14px] leading-[19px]"
+                  >
+                    Or Surprise Me
+                  </button>
+                </div>
+                <div
+                  class="w-[920px] flex flex-wrap justify-center gap-[15px] max-lg:w-[91vw] max-md:w-full"
+                >
+                  <div
+                    class="w-[920px] flex flex-wrap justify-center gap-[15px] max-lg:w-[91vw] max-md:w-full"
+                  >
+                    <div
+                      class="cursor-pointer rounded-[32px] h-[48px] py-[12px] px-[24px] border border-[#fff]/[15%] bg-white/[5%] max-md:h-[42px] max-md:px-[18px] max-md:py-[10px] max-md:flex max-md:justify-center max-md:items-center"
+                    >
+                      <a
+                        href="/futurest/pages/event-details/event-details.html"
+                        class="text-[16px] text-[#fff] font-[700] leading-[24px] max-md:text-[12px]"
+                        >Rihanna</a
+                      >
+                    </div>
+                    <div
+                      class="cursor-pointer rounded-[32px] h-[48px] py-[12px] px-[24px] border border-[#fff]/[15%] bg-white/[5%] max-md:h-[42px] max-md:px-[18px] max-md:py-[10px] max-md:flex max-md:justify-center max-md:items-center"
+                    >
+                      <a
+                        href="/futurest/pages/event-details/event-details.html"
+                        class="text-[16px] text-[#fff] font-[700] leading-[24px] max-md:text-[12px]"
+                        >Karaoke</a
+                      >
+                    </div>
+                    <div
+                      class="cursor-pointer rounded-[32px] h-[48px] py-[12px] px-[24px] border border-[#fff]/[15%] bg-white/[5%] max-md:h-[42px] max-md:px-[18px] max-md:py-[10px] max-md:flex max-md:justify-center max-md:items-center"
+                    >
+                      <a
+                        href="/futurest/pages/event-details/event-details.html"
+                        class="text-[16px] text-[#fff] font-[700] leading-[24px] max-md:text-[12px]"
+                        >Competition</a
+                      >
+                    </div>
+                    <div
+                      class="cursor-pointer rounded-[32px] h-[48px] py-[12px] px-[24px] border border-[#fff]/[15%] bg-white/[5%] max-md:h-[42px] max-md:px-[18px] max-md:py-[10px] max-md:flex max-md:justify-center max-md:items-center"
+                    >
+                      <a
+                        href="/futurest/pages/event-details/event-details.html"
+                        class="text-[16px] text-[#fff] font-[700] leading-[24px] max-md:text-[12px]"
+                        >Sport</a
+                      >
+                    </div>
+                    <div
+                      class="cursor-pointer rounded-[32px] h-[48px] py-[12px] px-[24px] border border-[#fff]/[15%] bg-white/[5%] max-md:h-[42px] max-md:px-[18px] max-md:py-[10px] max-md:flex max-md:justify-center max-md:items-center"
+                    >
+                      <a
+                        href="/futurest/pages/event-details/event-details.html"
+                        class="text-[16px] text-[#fff] font-[700] leading-[24px] max-md:text-[12px]"
+                        >Karaoke</a
+                      >
+                    </div>
+                    <div
+                      class="cursor-pointer rounded-[32px] h-[48px] py-[12px] px-[24px] border border-[#fff]/[15%] bg-white/[5%] max-md:h-[42px] max-md:px-[18px] max-md:py-[10px] max-md:flex max-md:justify-center max-md:items-center"
+                    >
+                      <a
+                        href="/futurest/pages/event-details/event-details.html"
+                        class="text-[16px] text-[#fff] font-[700] leading-[24px] max-md:text-[12px]"
+                        >Sport</a
+                      >
+                    </div>
+                    <div
+                      class="cursor-pointer rounded-[32px] h-[48px] py-[12px] px-[24px] border border-[#fff]/[15%] bg-white/[5%] max-md:h-[42px] max-md:px-[18px] max-md:py-[10px] max-xs:hidden max-md:flex max-md:justify-center max-md:items-center"
+                    >
+                      <a
+                        href="/futurest/pages/event-details/event-details.html"
+                        class="text-[16px] text-[#fff] font-[700] leading-[24px] max-md:text-[12px]"
+                        >Competition</a
+                      >
+                    </div>
+                    <div
+                      class="cursor-pointer rounded-[32px] h-[48px] py-[12px] px-[24px] border border-[#fff]/[15%] bg-white/[5%] max-md:h-[42px] max-md:px-[18px] max-md:py-[10px] max-xs:hidden max-md:flex max-md:justify-center max-md:items-center"
+                    >
+                      <a
+                        href="/futurest/pages/event-details/event-details.html"
+                        class="text-[16px] text-[#fff] font-[700] leading-[24px] max-md:text-[12px]"
+                        >Sport</a
+                      >
+                    </div>
+                    <div
+                      class="cursor-pointer rounded-[32px] h-[48px] py-[12px] px-[24px] border border-[#fff]/[15%] bg-white/[5%] max-md:h-[42px] max-md:px-[18px] max-md:py-[10px] max-xs:hidden max-md:flex max-md:justify-center max-md:items-center"
+                    >
+                      <a
+                        href="/futurest/pages/event-details/event-details.html"
+                        class="text-[16px] text-[#fff] font-[700] leading-[24px] max-md:text-[12px]"
+                        >Example of long one</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- search -->
+      <div>
+        <div class="w-full flex justify-center">
+          <div
+            class="pl-[60px] pr-[60px] w-[1440px] max-xxl:w-full max-lg:pr-0 max-xs:px-[16px] max-md:pl-[7.8vw]"
+          >
+            <div class="flex flex-col gap-[24px]">
+              <div>
+                <div
+                  class="flex justify-between items-center max-lg:pr-[60px] max-md:pr-[7.8vw] max-xs:pr-0"
+                >
+                  <div>
+                    <p
+                      class="text-[#fff] text-[34px] font-[700] leading-[40px] max-lg:text-[24px] max-xs:text-[16px]"
+                    >
+                      Top Events
+                    </p>
+                  </div>
+                  <div>
+                    <button
+                      class="flex items-center gap-[17px] max-md:gap-[1.8vw]"
+                    >
+                      <p
+                        class="text-[#fff] text-[16px] font-[600] leading-[21.7px] max-xs:text-[14px]"
+                      >
+                        Explore more
+                      </p>
+                      <a href="/futurest/pages/top-event/top-event-explore.html"
+                        ><img
+                          src="/futurest/image/arrow-right.svg"
+                          alt="arrow"
+                          class="w-[24px] h-[24px] object-cover"
+                      /></a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                id="newScrollContainer"
+                class="new-scroll-container flex gap-[30px] overflow-x-auto no-scrollbar whitespace-nowrap cursor-grab"
+              >
+                <div>
+                  <a href="/futurest/pages/top-event/top-event.html">
+                    <div class="w-[195px] h-[350px]">
+                      <img src="/futurest/image/event-block.svg" alt="" />
+                      <div class="relative">
+                        <div
+                          class="absolute bottom-0 pt-[36.32px] pb-[18.16px] px-[8px]"
+                        >
+                          <div class="flex flex-col gap-[6px]">
+                            <div class="flex gap-[5.6px]">
+                              <div>
+                                <img
+                                  src="/futurest/image/avatarmain.svg"
+                                  alt=""
+                                  class="w-[27px] h-[27px] object-cover"
+                                />
+                              </div>
+                              <div>
+                                <div
+                                  class="flex items-center justify-center gap-[2.27px]"
+                                >
+                                  <h2
+                                    class="text-[#fff] text-[11.3px] font-[600] font-open-sans leading-[15.4px]"
+                                  >
+                                    Jese Leos
+                                  </h2>
+                                  <div class="flex items-center justify-center">
+                                    <img
+                                      src="/futurest/image/verifiedcheck.svg"
+                                      alt=""
+                                      class="w-[13.6px] h-[13.6px]"
+                                    />
+                                  </div>
+                                </div>
+                                <div>
+                                  <p
+                                    class="text-[#F3F3F3] text-[6.8px] font-[400] font-open-sans leading-[9.2px]"
+                                  >
+                                    Event manager
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="flex gap-[13.6px]">
+                                <div class="flex flex-col gap-[6px]">
+                                  <div>
+                                    <h2
+                                      class="text-[#fff] text-[13.6px] font-[700] font-open-sans leading-[18.55px]"
+                                    >
+                                      Lorem ipsum dolor sit amet
+                                    </h2>
+                                  </div>
+                                  <div class="flex gap-[9px]">
+                                    <div>
+                                      <div class="flex gap-[4.5px]">
+                                        <img
+                                          src="/futurest/image/calendar.svg"
+                                          alt=""
+                                          class="w-[9px] h-[9px]"
+                                        />
+                                        <p
+                                          class="text-[#fff] text-[6.8px] font-[400] font-open-sans leading-[9.2px]"
+                                        >
+                                          17 Jan, 15:00PM
+                                        </p>
+                                      </div>
+                                    </div>
+                                    <div class="flex gap-[4.5px]">
+                                      <img
+                                        src="/futurest/image/location.svg"
+                                        alt=""
+                                        class="w-[9px] h-[9px]"
+                                      />
+                                      <p
+                                        class="text-[#fff] text-[6.8px] font-[400] font-open-sans leading-[9.2px]"
+                                      >
+                                        Location
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div>
+                  <a href="/futurest/pages/top-event/top-event.html">
+                    <div class="w-[195px] h-[350px]">
+                      <img src="/futurest/image/event-block.svg" alt="" />
+                      <div class="relative">
+                        <div
+                          class="absolute bottom-0 pt-[36.32px] pb-[18.16px] px-[8px]"
+                        >
+                          <div class="flex flex-col gap-[6px]">
+                            <div class="flex gap-[5.6px]">
+                              <div>
+                                <img
+                                  src="/futurest/image/avatarmain.svg"
+                                  alt=""
+                                  class="w-[27px] h-[27px] object-cover"
+                                />
+                              </div>
+                              <div>
+                                <div
+                                  class="flex items-center justify-center gap-[2.27px]"
+                                >
+                                  <h2
+                                    class="text-[#fff] text-[11.3px] font-[600] font-open-sans leading-[15.4px]"
+                                  >
+                                    Jese Leos
+                                  </h2>
+                                  <div class="flex items-center justify-center">
+                                    <img
+                                      src="/futurest/image/verifiedcheck.svg"
+                                      alt=""
+                                      class="w-[13.6px] h-[13.6px]"
+                                    />
+                                  </div>
+                                </div>
+                                <div>
+                                  <p
+                                    class="text-[#F3F3F3] text-[6.8px] font-[400] font-open-sans leading-[9.2px]"
+                                  >
+                                    Event manager
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="flex gap-[13.6px]">
+                                <div class="flex flex-col gap-[6px]">
+                                  <div>
+                                    <h2
+                                      class="text-[#fff] text-[13.6px] font-[700] font-open-sans leading-[18.55px]"
+                                    >
+                                      Lorem ipsum dolor sit amet
+                                    </h2>
+                                  </div>
+                                  <div class="flex gap-[9px]">
+                                    <div>
+                                      <div class="flex gap-[4.5px]">
+                                        <img
+                                          src="/futurest/image/calendar.svg"
+                                          alt=""
+                                          class="w-[9px] h-[9px]"
+                                        />
+                                        <p
+                                          class="text-[#fff] text-[6.8px] font-[400] font-open-sans leading-[9.2px]"
+                                        >
+                                          17 Jan, 15:00PM
+                                        </p>
+                                      </div>
+                                    </div>
+                                    <div class="flex gap-[4.5px]">
+                                      <img
+                                        src="/futurest/image/location.svg"
+                                        alt=""
+                                        class="w-[9px] h-[9px]"
+                                      />
+                                      <p
+                                        class="text-[#fff] text-[6.8px] font-[400] font-open-sans leading-[9.2px]"
+                                      >
+                                        Location
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div>
+                  <a href="/futurest/pages/top-event/top-event.html">
+                    <div class="w-[195px] h-[350px]">
+                      <img src="/futurest/image/event-block.svg" alt="" />
+                      <div class="relative">
+                        <div
+                          class="absolute bottom-0 pt-[36.32px] pb-[18.16px] px-[8px]"
+                        >
+                          <div class="flex flex-col gap-[6px]">
+                            <div class="flex gap-[5.6px]">
+                              <div>
+                                <img
+                                  src="/futurest/image/avatarmain.svg"
+                                  alt=""
+                                  class="w-[27px] h-[27px] object-cover"
+                                />
+                              </div>
+                              <div>
+                                <div
+                                  class="flex items-center justify-center gap-[2.27px]"
+                                >
+                                  <h2
+                                    class="text-[#fff] text-[11.3px] font-[600] font-open-sans leading-[15.4px]"
+                                  >
+                                    Jese Leos
+                                  </h2>
+                                  <div class="flex items-center justify-center">
+                                    <img
+                                      src="/futurest/image/verifiedcheck.svg"
+                                      alt=""
+                                      class="w-[13.6px] h-[13.6px]"
+                                    />
+                                  </div>
+                                </div>
+                                <div>
+                                  <p
+                                    class="text-[#F3F3F3] text-[6.8px] font-[400] font-open-sans leading-[9.2px]"
+                                  >
+                                    Event manager
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="flex gap-[13.6px]">
+                                <div class="flex flex-col gap-[6px]">
+                                  <div>
+                                    <h2
+                                      class="text-[#fff] text-[13.6px] font-[700] font-open-sans leading-[18.55px]"
+                                    >
+                                      Lorem ipsum dolor sit amet
+                                    </h2>
+                                  </div>
+                                  <div class="flex gap-[9px]">
+                                    <div>
+                                      <div class="flex gap-[4.5px]">
+                                        <img
+                                          src="/futurest/image/calendar.svg"
+                                          alt=""
+                                          class="w-[9px] h-[9px]"
+                                        />
+                                        <p
+                                          class="text-[#fff] text-[6.8px] font-[400] font-open-sans leading-[9.2px]"
+                                        >
+                                          17 Jan, 15:00PM
+                                        </p>
+                                      </div>
+                                    </div>
+                                    <div class="flex gap-[4.5px]">
+                                      <img
+                                        src="/futurest/image/location.svg"
+                                        alt=""
+                                        class="w-[9px] h-[9px]"
+                                      />
+                                      <p
+                                        class="text-[#fff] text-[6.8px] font-[400] font-open-sans leading-[9.2px]"
+                                      >
+                                        Location
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div>
+                  <a href="/futurest/pages/top-event/top-event.html">
+                    <div class="w-[195px] h-[350px]">
+                      <img src="/futurest/image/event-block.svg" alt="" />
+                      <div class="relative">
+                        <div
+                          class="absolute bottom-0 pt-[36.32px] pb-[18.16px] px-[8px]"
+                        >
+                          <div class="flex flex-col gap-[6px]">
+                            <div class="flex gap-[5.6px]">
+                              <div>
+                                <img
+                                  src="/futurest/image/avatarmain.svg"
+                                  alt=""
+                                  class="w-[27px] h-[27px] object-cover"
+                                />
+                              </div>
+                              <div>
+                                <div
+                                  class="flex items-center justify-center gap-[2.27px]"
+                                >
+                                  <h2
+                                    class="text-[#fff] text-[11.3px] font-[600] font-open-sans leading-[15.4px]"
+                                  >
+                                    Jese Leos
+                                  </h2>
+                                  <div class="flex items-center justify-center">
+                                    <img
+                                      src="/futurest/image/verifiedcheck.svg"
+                                      alt=""
+                                      class="w-[13.6px] h-[13.6px]"
+                                    />
+                                  </div>
+                                </div>
+                                <div>
+                                  <p
+                                    class="text-[#F3F3F3] text-[6.8px] font-[400] font-open-sans leading-[9.2px]"
+                                  >
+                                    Event manager
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="flex gap-[13.6px]">
+                                <div class="flex flex-col gap-[6px]">
+                                  <div>
+                                    <h2
+                                      class="text-[#fff] text-[13.6px] font-[700] font-open-sans leading-[18.55px]"
+                                    >
+                                      Lorem ipsum dolor sit amet
+                                    </h2>
+                                  </div>
+                                  <div class="flex gap-[9px]">
+                                    <div>
+                                      <div class="flex gap-[4.5px]">
+                                        <img
+                                          src="/futurest/image/calendar.svg"
+                                          alt=""
+                                          class="w-[9px] h-[9px]"
+                                        />
+                                        <p
+                                          class="text-[#fff] text-[6.8px] font-[400] font-open-sans leading-[9.2px]"
+                                        >
+                                          17 Jan, 15:00PM
+                                        </p>
+                                      </div>
+                                    </div>
+                                    <div class="flex gap-[4.5px]">
+                                      <img
+                                        src="/futurest/image/location.svg"
+                                        alt=""
+                                        class="w-[9px] h-[9px]"
+                                      />
+                                      <p
+                                        class="text-[#fff] text-[6.8px] font-[400] font-open-sans leading-[9.2px]"
+                                      >
+                                        Location
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div>
+                  <a href="/futurest/pages/top-event/top-event.html">
+                    <div class="w-[195px] h-[350px]">
+                      <img src="/futurest/image/event-block.svg" alt="" />
+                      <div class="relative">
+                        <div
+                          class="absolute bottom-0 pt-[36.32px] pb-[18.16px] px-[8px]"
+                        >
+                          <div class="flex flex-col gap-[6px]">
+                            <div class="flex gap-[5.6px]">
+                              <div>
+                                <img
+                                  src="/futurest/image/avatarmain.svg"
+                                  alt=""
+                                  class="w-[27px] h-[27px] object-cover"
+                                />
+                              </div>
+                              <div>
+                                <div
+                                  class="flex items-center justify-center gap-[2.27px]"
+                                >
+                                  <h2
+                                    class="text-[#fff] text-[11.3px] font-[600] font-open-sans leading-[15.4px]"
+                                  >
+                                    Jese Leos
+                                  </h2>
+                                  <div class="flex items-center justify-center">
+                                    <img
+                                      src="/futurest/image/verifiedcheck.svg"
+                                      alt=""
+                                      class="w-[13.6px] h-[13.6px]"
+                                    />
+                                  </div>
+                                </div>
+                                <div>
+                                  <p
+                                    class="text-[#F3F3F3] text-[6.8px] font-[400] font-open-sans leading-[9.2px]"
+                                  >
+                                    Event manager
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="flex gap-[13.6px]">
+                                <div class="flex flex-col gap-[6px]">
+                                  <div>
+                                    <h2
+                                      class="text-[#fff] text-[13.6px] font-[700] font-open-sans leading-[18.55px]"
+                                    >
+                                      Lorem ipsum dolor sit amet
+                                    </h2>
+                                  </div>
+                                  <div class="flex gap-[9px]">
+                                    <div>
+                                      <div class="flex gap-[4.5px]">
+                                        <img
+                                          src="/futurest/image/calendar.svg"
+                                          alt=""
+                                          class="w-[9px] h-[9px]"
+                                        />
+                                        <p
+                                          class="text-[#fff] text-[6.8px] font-[400] font-open-sans leading-[9.2px]"
+                                        >
+                                          17 Jan, 15:00PM
+                                        </p>
+                                      </div>
+                                    </div>
+                                    <div class="flex gap-[4.5px]">
+                                      <img
+                                        src="/futurest/image/location.svg"
+                                        alt=""
+                                        class="w-[9px] h-[9px]"
+                                      />
+                                      <p
+                                        class="text-[#fff] text-[6.8px] font-[400] font-open-sans leading-[9.2px]"
+                                      >
+                                        Location
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div>
+                  <a href="/futurest/pages/top-event/top-event.html">
+                    <div class="w-[195px] h-[350px]">
+                      <img src="/futurest/image/event-block.svg" alt="" />
+                      <div class="relative">
+                        <div
+                          class="absolute bottom-0 pt-[36.32px] pb-[18.16px] px-[8px]"
+                        >
+                          <div class="flex flex-col gap-[6px]">
+                            <div class="flex gap-[5.6px]">
+                              <div>
+                                <img
+                                  src="/futurest/image/avatarmain.svg"
+                                  alt=""
+                                  class="w-[27px] h-[27px] object-cover"
+                                />
+                              </div>
+                              <div>
+                                <div
+                                  class="flex items-center justify-center gap-[2.27px]"
+                                >
+                                  <h2
+                                    class="text-[#fff] text-[11.3px] font-[600] font-open-sans leading-[15.4px]"
+                                  >
+                                    Jese Leos
+                                  </h2>
+                                  <div class="flex items-center justify-center">
+                                    <img
+                                      src="/futurest/image/verifiedcheck.svg"
+                                      alt=""
+                                      class="w-[13.6px] h-[13.6px]"
+                                    />
+                                  </div>
+                                </div>
+                                <div>
+                                  <p
+                                    class="text-[#F3F3F3] text-[6.8px] font-[400] font-open-sans leading-[9.2px]"
+                                  >
+                                    Event manager
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="flex gap-[13.6px]">
+                                <div class="flex flex-col gap-[6px]">
+                                  <div>
+                                    <h2
+                                      class="text-[#fff] text-[13.6px] font-[700] font-open-sans leading-[18.55px]"
+                                    >
+                                      Lorem ipsum dolor sit amet
+                                    </h2>
+                                  </div>
+                                  <div class="flex gap-[9px]">
+                                    <div>
+                                      <div class="flex gap-[4.5px]">
+                                        <img
+                                          src="/futurest/image/calendar.svg"
+                                          alt=""
+                                          class="w-[9px] h-[9px]"
+                                        />
+                                        <p
+                                          class="text-[#fff] text-[6.8px] font-[400] font-open-sans leading-[9.2px]"
+                                        >
+                                          17 Jan, 15:00PM
+                                        </p>
+                                      </div>
+                                    </div>
+                                    <div class="flex gap-[4.5px]">
+                                      <img
+                                        src="/futurest/image/location.svg"
+                                        alt=""
+                                        class="w-[9px] h-[9px]"
+                                      />
+                                      <p
+                                        class="text-[#fff] text-[6.8px] font-[400] font-open-sans leading-[9.2px]"
+                                      >
+                                        Location
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="my-[80px] flex justify-center">
+          <div
+            class="flex flex-col justify-center items-center w-[1440px] max-xxl:w-full"
+          >
+            <div class="mb-[24px]">
+              <h2
+                class="text-[#fff] text-[34px] font-[700] leading-[40px] max-lg:text-[24px] max-xs:text-[16px]"
+              >
+                Event Ideas
+              </h2>
+            </div>
+            <div
+              class="px-[60px] w-[1440px] flex flex-wrap justify-center gap-[16px] max-xxl:w-full max-sm:px-[16px]"
+            >
+              <div
+                class="cursor-pointer flex gap-[8px] rounded-[32px] h-[48px] border border-white/[15%] px-[24px] py-[12px] bg-white/[5%] max-md:px-[20px] max-md:py-[10px] max-xs:h-[42px] max-xs:justify-center max-xs:just"
+              >
+                <a
+                  href="/futurest/pages/event-ideas/event-ideas.html "
+                  class="text-[#fff] text-[16px] font-[700] leading-[24px] max-sm:text-[12px] max-xs:leading-[18px]"
+                  >Rihanna</a
+                >
+                <img
+                  src="/futurest/image/icon-hand.svg"
+                  alt=""
+                  class="max-sm:w-[48px] max-xs:w-[16px] max-xs:h-[16px]"
+                />
+              </div>
+              <div
+                class="cursor-pointer flex gap-[8px] rounded-[32px] h-[48px] border border-white/[15%] px-[24px] py-[12px] bg-white/[5%] max-md:px-[20px] max-md:py-[10px] max-xs:h-[42px] max-xs:justify-center max-xs:just max-lg:hidden"
+              >
+                <a
+                  href="/futurest/pages/event-ideas/event-ideas.html "
+                  class="text-[#fff] text-[16px] font-[700] leading-[24px] max-sm:text-[12px] max-xs:leading-[18px]"
+                  >Karaoke</a
+                >
+                <img
+                  src="/futurest/image/icon-hand.svg"
+                  alt=""
+                  class="max-sm:w-[48px] max-xs:w-[16px] max-xs:h-[16px]"
+                />
+              </div>
+              <div
+                class="cursor-pointer flex gap-[8px] rounded-[32px] h-[48px] border border-white/[15%] px-[24px] py-[12px] bg-white/[5%] max-md:px-[20px] max-md:py-[10px] max-xs:h-[42px] max-xs:justify-center max-xs:just"
+              >
+                <a
+                  href="/futurest/pages/event-ideas/event-ideas.html "
+                  class="text-[#fff] text-[16px] font-[700] leading-[24px] max-sm:text-[12px] max-xs:leading-[18px]"
+                  >Competition</a
+                >
+                <img
+                  src="/futurest/image/icon-hand.svg"
+                  alt=""
+                  class="max-sm:w-[48px] max-xs:w-[16px] max-xs:h-[16px]"
+                />
+              </div>
+              <div
+                class="cursor-pointer flex gap-[8px] rounded-[32px] h-[48px] border border-white/[15%] px-[24px] py-[12px] bg-white/[5%] max-md:px-[20px] max-md:py-[10px] max-xs:h-[42px] max-xs:justify-center max-xs:just"
+              >
+                <a
+                  href="/futurest/pages/event-ideas/event-ideas.html "
+                  class="text-[#fff] text-[16px] font-[700] leading-[24px] max-sm:text-[12px] max-xs:leading-[18px]"
+                  >Sport</a
+                >
+                <img
+                  src="/futurest/image/icon-hand.svg"
+                  alt=""
+                  class="max-sm:w-[48px] max-xs:w-[16px] max-xs:h-[16px]"
+                />
+              </div>
+              <div
+                class="cursor-pointer flex gap-[8px] rounded-[32px] h-[48px] border border-white/[15%] px-[24px] py-[12px] bg-white/[5%] max-md:px-[20px] max-md:py-[10px] max-xs:h-[42px] max-xs:justify-center max-xs:just"
+              >
+                <a
+                  href="/futurest/pages/event-ideas/event-ideas.html "
+                  class="text-[#fff] text-[16px] font-[700] leading-[24px] max-sm:text-[12px] max-xs:leading-[18px]"
+                  >Karaoke</a
+                >
+                <img
+                  src="/futurest/image/icon-hand.svg"
+                  alt=""
+                  class="max-sm:w-[48px] max-xs:w-[16px] max-xs:h-[16px]"
+                />
+              </div>
+              <div
+                class="cursor-pointer flex gap-[8px] rounded-[32px] h-[48px] border border-white/[15%] px-[24px] py-[12px] bg-white/[5%] max-md:px-[20px] max-md:py-[10px] max-xs:h-[42px] max-xs:justify-center max-xs:just"
+              >
+                <a
+                  href="/futurest/pages/event-ideas/event-ideas.html "
+                  class="text-[#fff] text-[16px] font-[700] leading-[24px] max-sm:text-[12px] max-xs:leading-[18px]"
+                  >Sport</a
+                >
+                <img
+                  src="/futurest/image/icon-hand.svg"
+                  alt=""
+                  class="max-sm:w-[48px] max-xs:w-[16px] max-xs:h-[16px]"
+                />
+              </div>
+              <div
+                class="cursor-pointer flex gap-[8px] rounded-[32px] h-[48px] border border-white/[15%] px-[24px] py-[12px] bg-white/[5%] max-md:px-[20px] max-md:py-[10px] max-xs:h-[42px] max-xs:justify-center max-xs:just"
+              >
+                <a
+                  href="/futurest/pages/event-ideas/event-ideas.html "
+                  class="text-[#fff] text-[16px] font-[700] leading-[24px] max-sm:text-[12px] max-xs:leading-[18px]"
+                  >Competition</a
+                >
+                <img
+                  src="/futurest/image/icon-hand.svg"
+                  alt=""
+                  class="max-sm:w-[48px] max-xs:w-[16px] max-xs:h-[16px]"
+                />
+              </div>
+              <div
+                class="cursor-pointer flex gap-[8px] rounded-[32px] h-[48px] border border-white/[15%] px-[24px] py-[12px] bg-white/[5%] max-md:px-[20px] max-md:py-[10px] max-xs:h-[42px] max-xs:justify-center max-xs:just"
+              >
+                <a
+                  href="/futurest/pages/event-ideas/event-ideas.html "
+                  class="text-[#fff] text-[16px] font-[700] leading-[24px] max-sm:text-[12px] max-xs:leading-[18px]"
+                  >Sport</a
+                >
+                <img
+                  src="/futurest/image/icon-hand.svg"
+                  alt=""
+                  class="max-sm:w-[48px] max-xs:w-[16px] max-xs:h-[16px]"
+                />
+              </div>
+              <div
+                class="cursor-pointer flex gap-[8px] rounded-[32px] h-[48px] border border-white/[15%] px-[24px] py-[12px] bg-white/[5%] max-md:px-[20px] max-md:py-[10px] max-xs:h-[42px] max-xs:justify-center max-xs:just"
+              >
+                <a
+                  href="/futurest/pages/event-ideas/event-ideas.html "
+                  class="text-[#fff] text-[16px] font-[700] leading-[24px] max-sm:text-[12px] max-xs:leading-[18px]"
+                  >Rihanna</a
+                >
+                <img
+                  src="/futurest/image/icon-hand.svg"
+                  alt=""
+                  class="max-sm:w-[48px] max-xs:w-[16px] max-xs:h-[16px]"
+                />
+              </div>
+              <div
+                class="cursor-pointer flex gap-[8px] rounded-[32px] h-[48px] border border-white/[15%] px-[24px] py-[12px] bg-white/[5%] max-md:px-[20px] max-md:py-[10px] max-xs:h-[42px] max-xs:justify-center"
+              >
+                <a
+                  href="/futurest/pages/event-ideas/event-ideas.html "
+                  class="text-[#fff] text-[16px] font-[700] leading-[24px] max-sm:text-[12px] max-xs:leading-[18px]"
+                  >Competition</a
+                >
+                <img
+                  src="/futurest/image/icon-hand.svg"
+                  alt=""
+                  class="max-sm:w-[48px] max-xs:w-[16px] max-xs:h-[16px]"
+                />
+              </div>
+              <div
+                class="cursor-pointer flex gap-[8px] rounded-[32px] h-[48px] border border-white/[15%] px-[24px] py-[12px] bg-white/[5%] max-lg:hidden"
+              >
+                <a
+                  href="/futurest/pages/event-ideas/event-ideas.html "
+                  class="text-[#fff] text-[16px] font-[700] leading-[24px] max-sm:text-[12px] max-xs:leading-[18px]"
+                  >Sport</a
+                >
+                <img
+                  src="/futurest/image/icon-hand.svg"
+                  alt=""
+                  class="max-sm:w-[48px] max-xs:w-[16px] max-xs:h-[16px]"
+                />
+              </div>
+              <div
+                class="cursor-pointer flex gap-[8px] rounded-[32px] h-[48px] border border-white/[15%] px-[24px] py-[12px] bg-white/[5%] max-lg:hidden"
+              >
+                <a
+                  href="/futurest/pages/event-ideas/event-ideas.html "
+                  class="text-[#fff] text-[16px] font-[700] leading-[24px] max-sm:text-[12px] max-xs:leading-[18px]"
+                  >Sport</a
+                >
+                <img
+                  src="/futurest/image/icon-hand.svg"
+                  alt=""
+                  class="max-sm:w-[48px] max-xs:w-[16px] max-xs:h-[16px]"
+                />
+              </div>
+              <div
+                class="cursor-pointer flex gap-[8px] rounded-[32px] h-[48px] border border-white/[15%] px-[24px] py-[12px] bg-white/[5%] max-lg:hidden"
+              >
+                <a
+                  href="/futurest/pages/event-ideas/event-ideas.html "
+                  class="text-[#fff] text-[16px] font-[700] leading-[24px] max-sm:text-[12px] max-xs:leading-[18px]"
+                  >Competition</a
+                >
+                <img
+                  src="/futurest/image/icon-hand.svg"
+                  alt=""
+                  class="max-sm:w-[48px] max-xs:w-[16px] max-xs:h-[16px]"
+                />
+              </div>
+              <div
+                class="cursor-pointer flex gap-[8px] rounded-[32px] h-[48px] border border-white/[15%] px-[24px] py-[12px] bg-white/[5%] max-lg:hidden"
+              >
+                <a
+                  href="/futurest/pages/event-ideas/event-ideas.html "
+                  class="text-[#fff] text-[16px] font-[700] leading-[24px] max-sm:text-[12px] max-xs:leading-[18px]"
+                  >Sport</a
+                >
+                <img
+                  src="/futurest/image/icon-hand.svg"
+                  alt=""
+                  class="max-sm:w-[48px] max-xs:w-[16px] max-xs:h-[16px]"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <div class="max-w-[1440px] max-xxl:w-full">
+          <div>
+            <div>
+              <div class="flex justify-center">
+                <div
+                  class="text-white flex flex-col justify-center items-center w-full relative"
+                >
+                  <div
+                    class="w-[1440px] max-xxl:w-full mb-[24px] overflow-hidden px-[60px] max-md:px-[7.8vw] max-xs:px-[16px]"
+                  >
+                    <div class="flex justify-between mb-[19px]">
+                      <div
+                        class="flex gap-[16px] items-center max-sm:w-[170px] max-sm:gap-[4px]"
+                      >
+                        <h2
+                          class="text-[34px] text-[#fff] font-[700] leading-[40px] max-md:text-[4.4vw] max-xs:text-[16px]"
+                        >
+                          Browsing
+                        </h2>
+                        <h2
+                          class="text-[34px] text-[#FF842C] font-[700] leading-[40px] max-md:text-[4.4vw] max-xs:text-[16px]"
+                        >
+                          Yerevan
+                        </h2>
+                        <img
+                          id="arrowsImage"
+                          src="/futurest/image/arrow-right.svg"
+                          alt=""
+                          class="max-md:w-[24px] max-md:h-[24px] cursor-pointer rotate-0"
+                        />
+                      </div>
+                      <div>
+                        <a href="/futurest/pages/browsing/browsing.html"
+                          ><button
+                            class="flex justify-center items-center rounded-[8px] w-[136px] h-[40px] bg-white/[5%] border border-[var(--button-text-orange)] gap-[8px] text-[var(--button-text-orange)] max-sm:text-white max-sm:bg-transparent max-sm:border-none max-sm:w-[96px] max-sm:text-[14px]"
+                          >
+                            See more
+                            <img
+                              src="/futurest/image/arrow-right-orange.svg"
+                              alt=""
+                              class="max-md:w-[24px] max-md:h-[24px]"
+                            /></button
+                        ></a>
+                      </div>
+                    </div>
+
+                    <div id="scrollContainer" class="scroll-container">
+                      <div>
+                        <button class="browsing-button browsing-button-active">
+                          All
+                        </button>
+                      </div>
+                      <div>
+                        <button class="browsing-button">For you</button>
+                      </div>
+                      <div><button class="browsing-button">Online</button></div>
+                      <div>
+                        <button class="browsing-button">This weekend</button>
+                      </div>
+                      <div><button class="browsing-button">Music</button></div>
+                      <div><button class="browsing-button">Music</button></div>
+                      <div>
+                        <button class="browsing-button">This weekend</button>
+                      </div>
+                      <div>
+                        <button class="browsing-button">This weekend</button>
+                      </div>
+                      <div><button class="browsing-button">Free</button></div>
+                      <div><button class="browsing-button">Free</button></div>
+                      <div><button class="browsing-button">Online</button></div>
+                      <div>
+                        <button class="browsing-button">This weekend</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="absolute smal-popup top-[50px] left-[320px] popuphidden max-md:left-[94px] max-xbm:left-[50px] max-xs:left-[25px]"
+                  >
+                    <div
+                      class="w-[280px] h-min bg-[#101010] border-2 border-white/5 rounded-[32px]"
+                    >
+                      <div class="p-[16px]">
+                        <div
+                          class="bg-white/[5%] rounded-[120px] border border-white/[15%]"
+                        >
+                          <div class="flex h-full justify-between items-center">
+                            <div
+                              class="w-full flex items-center px-[12px] py-[9.5px]"
+                            >
+                              <input
+                                type="text"
+                                class="text-input text-white bg-transparent w-full h-full outline-none"
+                                placeholder="Search city events"
+                              />
+                              <div
+                                class="w-[26px] h-[24px] rounded-[65px] bg-[var(--button-text-orange)] flex items-center justify-center"
+                                aria-label="Search"
+                              >
+                                <img
+                                  src="/futurest/image/search-icon.svg"
+                                  alt="Search Icon"
+                                  class="w-[10px] h-[10px]"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="py-[8px]">
+                          <div>
+                            <div class="citynames"></div>
+                          </div>
+                          <div>
+                            <div class="citynames"></div>
+                          </div>
+                          <div>
+                            <div class="citynames"></div>
+                          </div>
+                          <div>
+                            <div class="citynames"></div>
+                          </div>
+                          <div>
+                            <div class="citynames"></div>
+                          </div>
+                          <div>
+                            <div class="citynames"></div>
+                          </div>
+                        </div>
+                        <div>
+                          <button
+                            id="addTextButton"
+                            class="w-full h-[40px] bg-[#FF842C] rounded-[8px] flex justify-center items-center"
+                          >
+                            Search
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-full px-[60px] max-xs:px-[16px]">
+                    <div
+                      class="grid grid-cols-4 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 gap-[32px]"
+                    >
+                      <div
+                        class="item w-[306px] box-border max-xxl:w-[21.25vw] max-lg:w-full"
+                      >
+                        <div class="w-full">
+                          <div
+                            class="flex flex-col justify-center items-center"
+                          >
+                            <a
+                              href="/futurest/pages/event-details/event-details.html"
+                              class="max-xs:w-full"
+                            >
+                              <img
+                                src="/futurest/image/browsing-img.svg"
+                                alt=""
+                                class="max-xs:w-full"
+                              />
+                            </a>
+                            <div class="mt-4 flex flex-col gap-1 w-full">
+                              <div>
+                                <div class="flex gap-3.5">
+                                  <div class="flex gap-[6px]">
+                                    <img
+                                      src="/futurest/image/calendar.svg"
+                                      alt=""
+                                    />
+                                    <p
+                                      class="text-xs leading-3.5 font-medium text-white"
+                                    >
+                                      17 Jan
+                                    </p>
+                                  </div>
+                                  <div class="flex gap-[6px]">
+                                    <img
+                                      src="/futurest/image/location.svg"
+                                      alt=""
+                                    />
+                                    <p
+                                      class="text-xs leading-3.5 font-medium text-white"
+                                    >
+                                      Location
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-white text-base font-bold leading-5"
+                                >
+                                  Lorem ipsum dolor sit amet
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="item w-[306px] box-border max-xxl:w-[21.25vw] max-lg:w-full"
+                      >
+                        <div class="w-full">
+                          <div
+                            class="flex flex-col justify-center items-center"
+                          >
+                            <a
+                              href="/futurest/pages/event-details/event-details.html"
+                              class="max-xs:w-full"
+                            >
+                              <img
+                                src="/futurest/image/browsing-img.svg"
+                                alt=""
+                                class="max-xs:w-full"
+                              />
+                            </a>
+                            <div class="mt-4 flex flex-col gap-1 w-full">
+                              <div>
+                                <div class="flex gap-3.5">
+                                  <div class="flex gap-[6px]">
+                                    <img
+                                      src="/futurest/image/calendar.svg"
+                                      alt=""
+                                    />
+                                    <p
+                                      class="text-xs leading-3.5 font-medium text-white"
+                                    >
+                                      17 Jan
+                                    </p>
+                                  </div>
+                                  <div class="flex gap-[6px]">
+                                    <img
+                                      src="/futurest/image/location.svg"
+                                      alt=""
+                                    />
+                                    <p
+                                      class="text-xs leading-3.5 font-medium text-white"
+                                    >
+                                      Location
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-white text-base font-bold leading-5"
+                                >
+                                  Lorem ipsum dolor sit amet
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="item w-[306px] box-border max-xxl:w-[21.25vw] max-lg:w-full"
+                      >
+                        <div class="w-full">
+                          <div
+                            class="flex flex-col justify-center items-center"
+                          >
+                            <a
+                              href="/futurest/pages/event-details/event-details.html"
+                              class="max-xs:w-full"
+                            >
+                              <img
+                                src="/futurest/image/browsing-img.svg"
+                                class="max-xs:w-full"
+                                alt=""
+                              />
+                            </a>
+                            <div class="mt-4 flex flex-col gap-1 w-full">
+                              <div>
+                                <div class="flex gap-3.5">
+                                  <div class="flex gap-[6px]">
+                                    <img
+                                      src="/futurest/image/calendar.svg"
+                                      alt=""
+                                    />
+                                    <p
+                                      class="text-xs leading-3.5 font-medium text-white"
+                                    >
+                                      17 Jan
+                                    </p>
+                                  </div>
+                                  <div class="flex gap-[6px]">
+                                    <img
+                                      src="/futurest/image/location.svg"
+                                      alt=""
+                                    />
+                                    <p
+                                      class="text-xs leading-3.5 font-medium text-white"
+                                    >
+                                      Location
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-white text-base font-bold leading-5"
+                                >
+                                  Lorem ipsum dolor sit amet
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="item w-[306px] box-border max-xxl:w-[21.25vw] max-lg:w-full"
+                      >
+                        <div class="w-full">
+                          <div
+                            class="flex flex-col justify-center items-center"
+                          >
+                            <a
+                              href="/futurest/pages/event-details/event-details.html"
+                              class="max-xs:w-full"
+                            >
+                              <img
+                                src="/futurest/image/browsing-img.svg"
+                                class="max-xs:w-full"
+                                alt=""
+                              />
+                            </a>
+                            <div class="mt-4 flex flex-col gap-1 w-full">
+                              <div>
+                                <div class="flex gap-3.5">
+                                  <div class="flex gap-[6px]">
+                                    <img
+                                      src="/futurest/image/calendar.svg"
+                                      alt=""
+                                    />
+                                    <p
+                                      class="text-xs leading-3.5 font-medium text-white"
+                                    >
+                                      17 Jan
+                                    </p>
+                                  </div>
+                                  <div class="flex gap-[6px]">
+                                    <img
+                                      src="/futurest/image/location.svg"
+                                      alt=""
+                                    />
+                                    <p
+                                      class="text-xs leading-3.5 font-medium text-white"
+                                    >
+                                      Location
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-white text-base font-bold leading-5"
+                                >
+                                  Lorem ipsum dolor sit amet
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="item w-[306px] box-border max-xxl:w-[21.25vw] max-lg:w-full"
+                      >
+                        <div class="w-full">
+                          <div
+                            class="flex flex-col justify-center items-center"
+                          >
+                            <a
+                              href="/futurest/pages/event-details/event-details.html"
+                              class="max-xs:w-full"
+                            >
+                              <img
+                                src="/futurest/image/browsing-img.svg"
+                                class="max-xs:w-full"
+                                alt=""
+                              />
+                            </a>
+                            <div class="mt-4 flex flex-col gap-1 w-full">
+                              <div>
+                                <div class="flex gap-3.5">
+                                  <div class="flex gap-[6px]">
+                                    <img
+                                      src="/futurest/image/calendar.svg"
+                                      alt=""
+                                    />
+                                    <p
+                                      class="text-xs leading-3.5 font-medium text-white"
+                                    >
+                                      17 Jan
+                                    </p>
+                                  </div>
+                                  <div class="flex gap-[6px]">
+                                    <img
+                                      src="/futurest/image/location.svg"
+                                      alt=""
+                                    />
+                                    <p
+                                      class="text-xs leading-3.5 font-medium text-white"
+                                    >
+                                      Location
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-white text-base font-bold leading-5"
+                                >
+                                  Lorem ipsum dolor sit amet
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="item w-[306px] box-border max-xxl:w-[21.25vw] max-lg:w-full"
+                      >
+                        <div class="w-full">
+                          <div
+                            class="flex flex-col justify-center items-center"
+                          >
+                            <a
+                              href="/futurest/pages/event-details/event-details.html"
+                              class="max-xs:w-full"
+                            >
+                              <img
+                                src="/futurest/image/browsing-img.svg"
+                                class="max-xs:w-full"
+                                alt=""
+                              />
+                            </a>
+                            <div class="mt-4 flex flex-col gap-1 w-full">
+                              <div>
+                                <div class="flex gap-3.5">
+                                  <div class="flex gap-[6px]">
+                                    <img
+                                      src="/futurest/image/calendar.svg"
+                                      alt=""
+                                    />
+                                    <p
+                                      class="text-xs leading-3.5 font-medium text-white"
+                                    >
+                                      17 Jan
+                                    </p>
+                                  </div>
+                                  <div class="flex gap-[6px]">
+                                    <img
+                                      src="/futurest/image/location.svg"
+                                      alt=""
+                                    />
+                                    <p
+                                      class="text-xs leading-3.5 font-medium text-white"
+                                    >
+                                      Location
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-white text-base font-bold leading-5"
+                                >
+                                  Lorem ipsum dolor sit amet
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="item w-[306px] box-border max-xxl:w-[21.25vw] max-lg:w-full"
+                      >
+                        <div class="w-full">
+                          <div
+                            class="flex flex-col justify-center items-center"
+                          >
+                            <a
+                              href="/futurest/pages/event-details/event-details.html"
+                              class="max-xs:w-full"
+                            >
+                              <img
+                                src="/futurest/image/browsing-img.svg"
+                                class="max-xs:w-full"
+                                alt=""
+                              />
+                            </a>
+                            <div class="mt-4 flex flex-col gap-1 w-full">
+                              <div>
+                                <div class="flex gap-3.5">
+                                  <div class="flex gap-[6px]">
+                                    <img
+                                      src="/futurest/image/calendar.svg"
+                                      alt=""
+                                    />
+                                    <p
+                                      class="text-xs leading-3.5 font-medium text-white"
+                                    >
+                                      17 Jan
+                                    </p>
+                                  </div>
+                                  <div class="flex gap-[6px]">
+                                    <img
+                                      src="/futurest/image/location.svg"
+                                      alt=""
+                                    />
+                                    <p
+                                      class="text-xs leading-3.5 font-medium text-white"
+                                    >
+                                      Location
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-white text-base font-bold leading-5"
+                                >
+                                  Lorem ipsum dolor sit amet
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="item w-[306px] box-border max-xxl:w-[21.25vw] max-lg:w-full"
+                      >
+                        <div class="w-full">
+                          <div
+                            class="flex flex-col justify-center items-center"
+                          >
+                            <a
+                              href="/futurest/pages/event-details/event-details.html"
+                              class="max-xs:w-full"
+                            >
+                              <img
+                                src="/futurest/image/browsing-img.svg"
+                                class="max-xs:w-full"
+                                alt=""
+                              />
+                            </a>
+                            <div class="mt-4 flex flex-col gap-1 w-full">
+                              <div>
+                                <div class="flex gap-3.5">
+                                  <div class="flex gap-[6px]">
+                                    <img
+                                      src="/futurest/image/calendar.svg"
+                                      alt=""
+                                    />
+                                    <p
+                                      class="text-xs leading-3.5 font-medium text-white"
+                                    >
+                                      17 Jan
+                                    </p>
+                                  </div>
+                                  <div class="flex gap-[6px]">
+                                    <img
+                                      src="/futurest/image/location.svg"
+                                      alt=""
+                                    />
+                                    <p
+                                      class="text-xs leading-3.5 font-medium text-white"
+                                    >
+                                      Location
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-white text-base font-bold leading-5"
+                                >
+                                  Lorem ipsum dolor sit amet
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="item w-[306px] box-border max-xxl:w-[21.25vw] max-lg:w-full"
+                      >
+                        <div class="w-full">
+                          <div
+                            class="flex flex-col justify-center items-center"
+                          >
+                            <a
+                              href="/futurest/pages/event-details/event-details.html"
+                              class="max-xs:w-full"
+                            >
+                              <img
+                                src="/futurest/image/browsing-img.svg"
+                                class="max-xs:w-full"
+                                alt=""
+                              />
+                            </a>
+                            <div class="mt-4 flex flex-col gap-1 w-full">
+                              <div>
+                                <div class="flex gap-3.5">
+                                  <div class="flex gap-[6px]">
+                                    <img
+                                      src="/futurest/image/calendar.svg"
+                                      alt=""
+                                    />
+                                    <p
+                                      class="text-xs leading-3.5 font-medium text-white"
+                                    >
+                                      17 Jan
+                                    </p>
+                                  </div>
+                                  <div class="flex gap-[6px]">
+                                    <img
+                                      src="/futurest/image/location.svg"
+                                      alt=""
+                                    />
+                                    <p
+                                      class="text-xs leading-3.5 font-medium text-white"
+                                    >
+                                      Location
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-white text-base font-bold leading-5"
+                                >
+                                  Lorem ipsum dolor sit amet
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="item w-[306px] box-border max-xxl:w-[21.25vw] max-lg:w-full"
+                      >
+                        <div class="w-full">
+                          <div
+                            class="flex flex-col justify-center items-center"
+                          >
+                            <a
+                              href="/futurest/pages/event-details/event-details.html"
+                              class="max-xs:w-full"
+                            >
+                              <img
+                                src="/futurest/image/browsing-img.svg"
+                                class="max-xs:w-full"
+                                alt=""
+                              />
+                            </a>
+                            <div class="mt-4 flex flex-col gap-1 w-full">
+                              <div>
+                                <div class="flex gap-3.5">
+                                  <div class="flex gap-[6px]">
+                                    <img
+                                      src="/futurest/image/calendar.svg"
+                                      alt=""
+                                    />
+                                    <p
+                                      class="text-xs leading-3.5 font-medium text-white"
+                                    >
+                                      17 Jan
+                                    </p>
+                                  </div>
+                                  <div class="flex gap-[6px]">
+                                    <img
+                                      src="/futurest/image/location.svg"
+                                      alt=""
+                                    />
+                                    <p
+                                      class="text-xs leading-3.5 font-medium text-white"
+                                    >
+                                      Location
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-white text-base font-bold leading-5"
+                                >
+                                  Lorem ipsum dolor sit amet
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="item w-[306px] box-border max-xxl:w-[21.25vw] max-lg:w-full"
+                      >
+                        <div class="w-full">
+                          <div
+                            class="flex flex-col justify-center items-center"
+                          >
+                            <a
+                              href="/futurest/pages/event-details/event-details.html"
+                              class="max-xs:w-full"
+                            >
+                              <img
+                                src="/futurest/image/browsing-img.svg"
+                                class="max-xs:w-full"
+                                alt=""
+                              />
+                            </a>
+                            <div class="mt-4 flex flex-col gap-1 w-full">
+                              <div>
+                                <div class="flex gap-3.5">
+                                  <div class="flex gap-[6px]">
+                                    <img
+                                      src="/futurest/image/calendar.svg"
+                                      alt=""
+                                    />
+                                    <p
+                                      class="text-xs leading-3.5 font-medium text-white"
+                                    >
+                                      17 Jan
+                                    </p>
+                                  </div>
+                                  <div class="flex gap-[6px]">
+                                    <img
+                                      src="/futurest/image/location.svg"
+                                      alt=""
+                                    />
+                                    <p
+                                      class="text-xs leading-3.5 font-medium text-white"
+                                    >
+                                      Location
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-white text-base font-bold leading-5"
+                                >
+                                  Lorem ipsum dolor sit amet
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="item w-[306px] box-border max-xxl:w-[21.25vw] max-lg:w-full"
+                      >
+                        <div class="w-full">
+                          <div
+                            class="flex flex-col justify-center items-center"
+                          >
+                            <a
+                              href="/futurest/pages/event-details/event-details.html"
+                              class="max-xs:w-full"
+                            >
+                              <img
+                                src="/futurest/image/browsing-img.svg"
+                                class="max-xs:w-full"
+                                alt=""
+                              />
+                            </a>
+                            <div class="mt-4 flex flex-col gap-1 w-full">
+                              <div>
+                                <div class="flex gap-3.5">
+                                  <div class="flex gap-[6px]">
+                                    <img
+                                      src="/futurest/image/calendar.svg"
+                                      alt=""
+                                    />
+                                    <p
+                                      class="text-xs leading-3.5 font-medium text-white"
+                                    >
+                                      17 Jan
+                                    </p>
+                                  </div>
+                                  <div class="flex gap-[6px]">
+                                    <img
+                                      src="/futurest/image/location.svg"
+                                      alt=""
+                                    />
+                                    <p
+                                      class="text-xs leading-3.5 font-medium text-white"
+                                    >
+                                      Location
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <p
+                                  class="text-white text-base font-bold leading-5"
+                                >
+                                  Lorem ipsum dolor sit amet
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="flex justify-center mt-[80px]">
+          <div class="w-[1440px] max-xxl:w-full px-[60px] max-xs:px-[16px]">
+            <div class="mb-[24px] max-xs:mb-[16px]">
+              <h2
+                class="text-[#fff] text-[34px] leading-[40px] font-[700] max-lg:text-[24px] max-xs:text-[16px] max-xs:leading-[24px]"
+              >
+                Categories
+              </h2>
+            </div>
+            <div class="w-full flex justify-start">
+              <div class="w-full text-white flex justify-center items-center">
+                <div class="w-full">
+                  <div
+                    class="w-full grid grid-cols-4 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 gap-[15px]"
+                  >
+                    <div
+                      class="relative item w-[318px] box-border max-xxl:w-[21.5vw] max-lg:w-full"
+                    >
+                      <a href="/futurest/pages/categories/categories.html">
+                        <img src="/futurest/image/categories1.svg" alt="" />
+                        <div class="absolute bottom-0 p-[12px]">
+                          <div class="flex flex-col gap-[8px]">
+                            <p
+                              class="text-[#fff] text-[12px] font-sans font-[400] leading-[16.3px]"
+                            >
+                              >100 events
+                            </p>
+                            <h2
+                              class="text-[#fff] text-[16px] font-sans font-[700] leading-[21.7px]"
+                            >
+                              Health & Sport
+                            </h2>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div
+                      class="relative item w-[318px] box-border max-xxl:w-[21.5vw] max-lg:w-full"
+                    >
+                      <a href="/futurest/pages/categories/categories.html">
+                        <img src="/futurest/image/categories2.svg" alt="" />
+                        <div class="absolute bottom-0 p-[12px]">
+                          <div class="flex flex-col gap-[8px]">
+                            <p
+                              class="text-[#fff] text-[12px] font-sans font-[400] leading-[16.3px]"
+                            >
+                              >100 events
+                            </p>
+                            <h2
+                              class="text-[#fff] text-[16px] font-sans font-[700] leading-[21.7px]"
+                            >
+                              Self-development
+                            </h2>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div
+                      class="relative item w-[318px] box-border max-xxl:w-[21.5vw] max-lg:w-full"
+                    >
+                      <a href="/futurest/pages/categories/categories.html">
+                        <img src="/futurest/image/categories3.svg" alt="" />
+                        <div class="absolute bottom-0 p-[12px]">
+                          <div class="flex flex-col gap-[8px]">
+                            <p
+                              class="text-[#fff] text-[12px] font-sans font-[400] leading-[16.3px]"
+                            >
+                              >100 events
+                            </p>
+                            <h2
+                              class="text-[#fff] text-[16px] font-sans font-[700] leading-[21.7px]"
+                            >
+                              Art
+                            </h2>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div
+                      class="relative item w-[318px] box-border max-xxl:w-[21.5vw] max-lg:w-full"
+                    >
+                      <a href="/futurest/pages/categories/categories.html">
+                        <img src="/futurest/image/categories4.svg" alt="" />
+                        <div class="absolute bottom-0 p-[12px]">
+                          <div class="flex flex-col gap-[8px]">
+                            <p
+                              class="text-[#fff] text-[12px] font-sans font-[400] leading-[16.3px]"
+                            >
+                              >100 events
+                            </p>
+                            <h2
+                              class="text-[#fff] text-[16px] font-sans font-[700] leading-[21.7px]"
+                            >
+                              Food and Gastronomy
+                            </h2>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div
+                      class="relative item w-[318px] box-border max-xxl:w-[21.5vw] max-lg:w-full"
+                    >
+                      <a href="/futurest/pages/categories/categories.html">
+                        <img src="/futurest/image/categories5.svg" alt="" />
+                        <div class="absolute bottom-0 p-[12px]">
+                          <div class="flex flex-col gap-[8px]">
+                            <p
+                              class="text-[#fff] text-[12px] font-sans font-[400] leading-[16.3px]"
+                            >
+                              >100 events
+                            </p>
+                            <h2
+                              class="text-[#fff] text-[16px] font-sans font-[700] leading-[21.7px]"
+                            >
+                              Charity
+                            </h2>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div
+                      class="relative item w-[318px] box-border max-xxl:w-[21.5vw] max-lg:w-full"
+                    >
+                      <a href="/futurest/pages/categories/categories.html">
+                        <img src="/futurest/image/categories6.svg" alt="" />
+                        <div class="absolute bottom-0 p-[12px]">
+                          <div class="flex flex-col gap-[8px]">
+                            <p
+                              class="text-[#fff] text-[12px] font-sans font-[400] leading-[16.3px]"
+                            >
+                              >100 events
+                            </p>
+                            <h2
+                              class="text-[#fff] text-[16px] font-sans font-[700] leading-[21.7px]"
+                            >
+                              Entertainments
+                            </h2>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div
+                      class="relative item w-[318px] box-border max-xxl:w-[21.5vw] max-lg:w-full"
+                    >
+                      <a href="/futurest/pages/categories/categories.html">
+                        <img src="/futurest/image/categories7.svg" alt="" />
+                        <div class="absolute bottom-0 p-[12px]">
+                          <div class="flex flex-col gap-[8px]">
+                            <p
+                              class="text-[#fff] text-[12px] font-sans font-[400] leading-[16.3px]"
+                            >
+                              >100 events
+                            </p>
+                            <h2
+                              class="text-[#fff] text-[16px] font-sans font-[700] leading-[21.7px]"
+                            >
+                              Extreme
+                            </h2>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div
+                      class="relative item w-[318px] box-border max-xxl:w-[21.5vw] max-lg:w-full"
+                    >
+                      <a href="/futurest/pages/categories/categories.html">
+                        <img src="/futurest/image/categories8.svg" alt="" />
+                        <div class="absolute bottom-0 p-[12px]">
+                          <div class="flex flex-col gap-[8px]">
+                            <p
+                              class="text-[#fff] text-[12px] font-sans font-[400] leading-[16.3px]"
+                            >
+                              >100 events
+                            </p>
+                            <h2
+                              class="text-[#fff] text-[16px] font-sans font-[700] leading-[21.7px]"
+                            >
+                              Traveling
+                            </h2>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div>
+            <div
+              class="flex flex-col items-center justify-center gap-[16px] mt-[80px]"
+            >
+              <div>
+                <div>
+                  <div
+                    class="flex flex-col items-center justify-center gap-[16px] mt-[80px]"
+                  >
+                    <div>
+                      <h2
+                        class="text-[#fff] text-[34px] font-[700] leading-[40px] max-lg:text-[24px]"
+                      >
+                        Still have questions?
+                      </h2>
+                    </div>
+                    <div>
+                      <button
+                        id="contactButton"
+                        class="flex justify-center items-center rounded-[8px] w-[163px] h-[56px] font-[600] bg-white/[5%] border border-[var(--button-text-orange)] gap-[8px] text-[var(--button-text-orange)]"
+                      >
+                        Contact us
+                        <img
+                          src="/futurest/image/arrow-right-orange.svg"
+                          alt=""
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div id="toggleDivContact" class="hidden-element">
+                  <div class="absolute w-full z-visibility">
+                    <div
+                      class="h-dvh bg-black/60 flex justify-center items-center"
+                    >
+                      <div
+                        class="content-container p-[48px] flex flex-col justify-center items-center gap-[32px] w-[863px] h-[720px] bg-[#101010] rounded-[32px] border-[4px] border-white/5 max-md:mx-[7.8vw] max-sm:mx-[16px] max-xbm:p-[11vw] max-xbm:px-0 max-xbm:gap-[15px] max-xbm:h-min max-lg:w-[520px] max-lg:h-[800px] max-smm:w-[91vw] max-smm:mx-[20px]"
+                      >
+                        <div
+                          class="text-center flex flex-col gap-[16px] max-xbm:px-[11vw]"
+                        >
+                          <h2
+                            class="text-[#fff] text-[32px] leading-[38px] font-[700] max-lg:text-[24px] max-xs:text-[16px] max-md:leading-[36px]"
+                          >
+                            Contact Us
+                          </h2>
+                          <p
+                            class="text-[#747474] text-[20px] leading-[30px] font-[600] max-lg:text-[16px] max-xs:text-[14px] max-md:leading-[24px]"
+                          >
+                            Lorem ipsum dolor e sit amet site
+                          </p>
+                        </div>
+                        <div class="flex flex-col gap-[24px]">
+                          <div class="flex gap-[24px] max-lg:flex-col">
+                            <input
+                              type="text"
+                              placeholder="Name"
+                              class="w-[372px] h-[62px] rounded-[12px] border border-[#fff]/5 bg-[#fff]/5 p-[16px] max-lg:h-[50px] max-lg:w-[424px] max-smm:w-[73vw]"
+                            />
+                            <input
+                              type="text"
+                              placeholder="Phone Number"
+                              class="w-[372px] h-[62px] rounded-[12px] border border-[#fff]/5 bg-[#fff]/5 p-[16px] max-lg:h-[50px] max-lg:w-[424px] max-smm:w-[73vw]"
+                            />
+                          </div>
+                          <div>
+                            <input
+                              type="text"
+                              placeholder="Email"
+                              class="w-[768px] h-[62px] rounded-[12px] border border-[#fff]/5 bg-[#fff]/5 p-[16px] max-lg:w-[424px] max-smm:w-[73vw]"
+                            />
+                          </div>
+                          <div>
+                            <input
+                              type="text"
+                              placeholder="How we can help you with?"
+                              class="w-[768px] h-[62px] rounded-[12px] border border-[#fff]/5 bg-[#fff]/5 p-[16px] max-lg:w-[424px] max-smm:w-[73vw]"
+                            />
+                          </div>
+                          <div>
+                            <input
+                              type="text"
+                              placeholder="Message"
+                              class="w-[768px] h-[145px] rounded-[12px] border border-[#fff]/5 bg-[#fff]/5 p-[16px] max-lg:w-[424px] max-smm:w-[73vw]"
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="flex flex-col items-center gap-[16px] max-lg:w-full max-lg:items-start max-smm:w-[73vw]"
+                        >
+                          <div class="flex gap-[8px]">
+                            <input
+                              type="checkbox"
+                              class="w-[16px] h-[16px] bg-[#464646] border-[#808080] checked:bg-[#FF842C] border rounded-[4px]"
+                            />
+                            <p
+                              class="text-[12px] text-[#fff] font-[600] leading-[16px] max-lg:hidden"
+                            >
+                              Subscribe to our newsletter, Promise we will not
+                              spam you!
+                            </p>
+                            <p
+                              class="text-[12px] text-[#fff] font-[600] leading-[16px] hidden max-lg:block"
+                            >
+                              Subscribe to our newsletter
+                            </p>
+                          </div>
+                          <div class="max-lg:w-full">
+                            <button
+                              class="w-[111px] h-[56px] bg-[#ff842c] rounded-[8px] text-[16px] text-[#fff] font-[600] leading-[21px] max-lg:w-full"
+                            >
+                              Send
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="toggleDivContact" class="hidden">
+            <div class="absolute w-full z-visibility">
+              <div class="h-dvh bg-black/60 flex justify-center items-center">
+                <div
+                  class="content-container p-[48px] flex flex-col justify-center items-center gap-[32px] w-[863px] h-[720px] bg-[#101010] rounded-[32px] border-[4px] border-white/5 max-md:mx-[7.8vw] max-sm:mx-[16px] max-xbm:p-[11vw] max-xbm:px-0 max-xbm:gap-[15px] max-xbm:h-min max-lg:w-[520px] max-lg:h-[800px] max-smm:w-[91vw] max-smm:mx-[20px]"
+                >
+                  <div
+                    class="text-center flex flex-col gap-[16px] max-xbm:px-[11vw]"
+                  >
+                    <h2
+                      class="text-[#fff] text-[32px] leading-[38px] font-[700] max-lg:text-[24px] max-xs:text-[16px] max-md:leading-[36px]"
+                    >
+                      Contact Us
+                    </h2>
+                    <p
+                      class="text-[#747474] text-[20px] leading-[30px] font-[600] max-lg:text-[16px] max-xs:text-[14px] max-md:leading-[24px]"
+                    >
+                      Lorem ipsum dolor e sit amet site
+                    </p>
+                  </div>
+                  <div class="flex flex-col gap-[24px]">
+                    <div class="flex gap-[24px] max-lg:flex-col">
+                      <input
+                        type="text"
+                        placeholder="Name"
+                        class="w-[372px] h-[62px] rounded-[12px] border border-[#fff]/5 bg-[#fff]/5 p-[16px] max-lg:h-[50px] max-lg:w-[424px] max-smm:w-[73vw]"
+                      />
+                      <input
+                        type="text"
+                        placeholder="Phone Number"
+                        class="w-[372px] h-[62px] rounded-[12px] border border-[#fff]/5 bg-[#fff]/5 p-[16px] max-lg:h-[50px] max-lg:w-[424px] max-smm:w-[73vw]"
+                      />
+                    </div>
+                    <div>
+                      <input
+                        type="text"
+                        placeholder="Email"
+                        class="w-[768px] h-[62px] rounded-[12px] border border-[#fff]/5 bg-[#fff]/5 p-[16px] max-lg:w-[424px] max-smm:w-[73vw]"
+                      />
+                    </div>
+                    <div>
+                      <input
+                        type="text"
+                        placeholder="How we can help you with?"
+                        class="w-[768px] h-[62px] rounded-[12px] border border-[#fff]/5 bg-[#fff]/5 p-[16px] max-lg:w-[424px] max-smm:w-[73vw]"
+                      />
+                    </div>
+                    <div>
+                      <input
+                        type="text"
+                        placeholder="Message"
+                        class="w-[768px] h-[145px] rounded-[12px] border border-[#fff]/5 bg-[#fff]/5 p-[16px] max-lg:w-[424px] max-smm:w-[73vw]"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="flex flex-col items-center gap-[16px] max-lg:w-full max-lg:items-start max-smm:w-[73vw]"
+                  >
+                    <div class="flex gap-[8px]">
+                      <input
+                        type="checkbox"
+                        class="w-[16px] h-[16px] bg-[#464646] border-[#808080] checked:bg-[#FF842C] border rounded-[4px]"
+                      />
+                      <p
+                        class="text-[12px] text-[#fff] font-[600] leading-[16px] max-lg:hidden"
+                      >
+                        Subscribe to our newsletter, Promise we will not spam
+                        you!
+                      </p>
+                      <p
+                        class="text-[12px] text-[#fff] font-[600] leading-[16px] hidden max-lg:block"
+                      >
+                        Subscribe to our newsletter
+                      </p>
+                    </div>
+                    <div class="max-lg:w-full">
+                      <button
+                        class="w-[111px] h-[56px] bg-[#ff842c] rounded-[8px] text-[16px] text-[#fff] font-[600] leading-[21px] max-lg:w-full"
+                      >
+                        Send
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="h-full">
+        <div
+          class="mt-[80px] pb-[40px] h-full flex flex-col justify-center items-center max-lg:pb-[90px] max-lgs:pb-[140px] max-mmd:pb-[90px] max-mbd:pb-[140px] max-smm:pb-[210px] max-sbm:pb-[336px] max-sm:pb-[360px] max-xbm:pb-[360px] max-xs:pb-[500px] max-xxs:pb-[485px]"
+        >
+          <div
+            class="relative w-[1440px] max-xxl:w-full flex flex-col justify-center items-center"
+          >
+            <img
+              src="/futurest/image/footer-background.svg"
+              alt=""
+              class="h-[393px] w-full object-center"
+            />
+            <div
+              class="absolute top-[90px] max-lg:px-[60px] max-xs:px-[16px] max-xs:top-[32px]"
+            >
+              <div class="mb-[24px] flex justify-center items-center">
+                <img
+                  src="/futurest/image/Logo.svg"
+                  alt=""
+                  class="w-[206px] h-[45px] object-cover"
+                />
+              </div>
+              <div class="flex justify-center gap-[8px] mb-[18px]">
+                <div
+                  class="flex justify-center items-center w-[48px] h-[48px] rounded-[32px] border border-white/[15%] bg-white/[5%] cursor-pointer"
+                >
+                  <img
+                    src="/futurest/image/apple.svg"
+                    alt=""
+                    class="w-[24px] h-[24px]"
+                  />
+                </div>
+                <div
+                  class="flex justify-center items-center w-[48px] h-[48px] rounded-[32px] border border-white/[15%] bg-white/[5%] cursor-pointer"
+                >
+                  <img
+                    src="/futurest/image/google-play.svg"
+                    alt=""
+                    class="w-[24px] h-[24px]"
+                  />
+                </div>
+                <div
+                  class="flex justify-center items-center w-[48px] h-[48px] rounded-[32px] border border-white/[15%] bg-white/[5%] cursor-pointer"
+                >
+                  <img
+                    src="/futurest/image/telegram.svg"
+                    alt=""
+                    class="w-[24px] h-[24px]"
+                  />
+                </div>
+              </div>
+              <div
+                class="flex justify-center items-center max-lg:flex-wrap max-xs:flex-col"
+              >
+                <a
+                  href="#"
+                  class="px-[16px] py-[12px] text-[#808080] text-[16px] font-[400] leading-[24px] max-xs:text-[14px]"
+                  >Explore the App</a
+                >
+                <a
+                  href="#"
+                  class="px-[16px] py-[12px] text-[#808080] text-[16px] font-[400] leading-[24px] max-xs:text-[14px]"
+                  >FAQ</a
+                >
+                <a
+                  href="#"
+                  class="px-[16px] py-[12px] text-[#808080] text-[16px] font-[400] leading-[24px] max-xs:text-[14px]"
+                  >Feedbacks</a
+                >
+                <a
+                  href="#"
+                  class="px-[16px] py-[12px] text-[#808080] text-[16px] font-[400] leading-[24px] max-xs:text-[14px]"
+                  >Partnership</a
+                >
+                <a
+                  href="#"
+                  class="px-[16px] py-[12px] text-[#808080] text-[16px] font-[400] leading-[24px] max-xs:text-[14px]"
+                  >For Investors</a
+                >
+                <a
+                  href="#"
+                  class="px-[16px] py-[12px] text-[#808080] text-[16px] font-[400] leading-[24px] max-xs:text-[14px]"
+                  >About us</a
+                >
+              </div>
+              <div>
+                <div
+                  class="w-full flex flex-wrap align-center justify-center gap-x-[3.8vw] min-gap mt-[32px] max-lg:gap-[32px] max-lg:gap-x-[3.1vw] max-xs:flex-col max-xs:items-center max-xs:justify-center mb-[20px]"
+                >
+                  <div
+                    class="flex gap-[12px] max-xs:flex-col max-xs:items-center max-xs:justify-center max-xs:gap-0"
+                  >
+                    <div class="flex justify-center w-[24px] h-[24px]">
+                      <img src="/futurest/image/call.svg" alt="/" />
+                    </div>
+                    <div
+                      class="max-xs:flex max-xs:flex-col max-xs:items-center max-xs:justify-center"
+                    >
+                      <p class="text-[12px] text-[#808080] font-[400]">
+                        Have a question?
+                      </p>
+                      <a
+                        class="text-[16px] text-[#fff] font-[400] font-size max-lg:text-[14px]"
+                        target="_blank"
+                      >
+                        +420 608 063 874
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    class="flex gap-[12px] max-xs:flex-col max-xs:items-center max-xs:justify-center max-xs:gap-0"
+                  >
+                    <div class="flex justify-center w-[24px] h-[24px]">
+                      <img src="/futurest/image/sms.svg" alt="/" />
+                    </div>
+                    <div
+                      class="max-xs:flex max-xs:flex-col max-xs:items-center max-xs:justify-center"
+                    >
+                      <p class="text-[12px] text-[#808080] font-[400]">
+                        Contact us at
+                      </p>
+                      <a
+                        class="text-[16px] text-[#fff] font-[400] font-size max-lg:text-[14px]"
+                        target="_blank"
+                      >
+                        unreal@outlook.com
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    class="flex gap-[12px] max-xs:flex-col max-xs:items-center max-xs:justify-center max-xs:gap-0"
+                  >
+                    <div class="flex justify-center w-[24px] h-[24px]">
+                      <img src="/futurest/image/location-big.svg" alt="/" />
+                    </div>
+                    <div
+                      class="max-xs:flex max-xs:flex-col max-xs:items-center max-xs:justify-center"
+                    >
+                      <p class="text-[12px] text-[#808080] font-[400]">
+                        Address
+                      </p>
+                      <a
+                        href="https://www.google.com/maps/place/Italsk%C3%A1+2581%2F67,+120+00+Vinohrady/data=!4m2!3m1!1s0x470b94972be9dc7f:0x672a6e2930474ef6?sa=X&ved=2ahUKEwj7q5SOotH6AhUNwAIHHWajDlkQ8gF6BAgeEAE"
+                        class="text-[16px] text-[#fff] font-[400] font-size max-lg:text-[14px]"
+                        target="_blank"
+                      >
+                        Italská 2581/67, 120 00 Vinohrady, Praha
+                      </a>
+                    </div>
+                  </div>
+                  <div class="flex flex-col items-end footer-contact-p">
+                    <p class="text-[14px] text-[#808080] font-[400]">
+                      © 2000-2021,
+                    </p>
+                    <h4 class="text-[14px] text-[#808080] font-[400]">
+                      All Rights Reserved
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="absolute bottom-0 w-full">
+        <div class="flex justify-center">
+          <div
+            class="flex justify-center items-center bg-white/[5%] w-full h-[42px]"
+          >
+            <div class="w-[1440px] flex items-center justify-between px-[30px]">
+              <div class="flex justify-center items-center">
+                <a
+                  href="#"
+                  class="text-[#808080] text-[12px] font-[400] leading-[18px]"
+                  >Our rules</a
+                >
+              </div>
+              <div
+                class="flex justify-center items-center gap-[32px] max-xs:gap-[16px]"
+              >
+                <a
+                  href="#"
+                  class="text-[#808080] text-[12px] font-[400] leading-[18px]"
+                  >Privacy Policy</a
+                >
+                <a
+                  href="#"
+                  class="text-[#808080] text-[12px] font-[400] leading-[18px]"
+                  >Terms of Use</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/futurest/script.js"></script>
+  </body>
+</html>
