@@ -3,13 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/remarkup/futurest/dist/output.css" rel="stylesheet" />
-    <link
-      rel="icon"
-      type="image/svg+xml"
-      href="/remarkup/futurest/image/favicon.svg"
-    />
-    <link rel="stylesheet" href="/remarkup/futurest/styles.css" />
+    <link href="../../dist/output.css" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="../../image/favicon.svg" />
+    <link rel="stylesheet" href="../../styles.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -20,17 +16,64 @@
     <div class="relative">
       <div>
         <div>
+          <div class="hidden">
+            <div id="toggleDiv">
+              <div class="absolute w-full">
+                <div class="h-dvh bg-black/60 flex justify-center items-center">
+                  <div
+                    class="content-container p-[48px] flex flex-col justify-center items-center gap-[32px] w-[582px] h-[547px] bg-[#101010] rounded-[32px] border-[4px] border-white/5 max-md:mx-[7.8vw] max-sm:mx-[16px] max-xbm:p-[11vw] max-xbm:px-0 max-xbm:gap-[15px] max-xbm:h-min"
+                  >
+                    <div
+                      class="text-center flex flex-col gap-[16px] max-xbm:px-[11vw]"
+                    >
+                      <h2
+                        class="text-[#fff] text-[32px] leading-[38px] font-[700] max-lg:text-[24px] max-xs:text-[16px] max-md:leading-[36px]"
+                      >
+                        Stay Tuned!
+                      </h2>
+                      <p
+                        class="text-[#747474] text-[20px] leading-[30px] font-[600] max-lg:text-[16px] max-xs:text-[14px] max-md:leading-[24px]"
+                      >
+                        Scan to download our app to always be first!
+                      </p>
+                    </div>
+                    <div>
+                      <img
+                        src="../../image/qr.svg"
+                        alt=""
+                        class="w-[240px] h-[240px]"
+                      />
+                    </div>
+                    <div
+                      class="text-center flex flex-col gap-[16px] max-xbm:px-[11vw]"
+                    >
+                      <p
+                        class="text-[#747474] text-[16px] leading-[24px] font-[400] max-xs:text-[16px] max-md:leading-[24px]"
+                      >
+                        Or Follow the link below
+                      </p>
+                      <p
+                        class="text-[#FF842C] text-[16px] leading-[21px] font-[600] max-xs:text-[16px] max-md:leading-[21px]"
+                      >
+                        Download the app!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div
             id="navbar"
-            class="fixed top-0 z-10 w-full h-[110px] flex justify-center items-center bg-upGradient"
+            class="fixed top-0 z-[100] w-full h-[110px] flex justify-center items-center bg-upGradient"
           >
             <div
               class="w-[1440px] max-xxl:w-full flex justify-between px-[60px] max-md:px-[7.8vw]"
             >
               <div class="flex items-center max-sm:w-[110px]">
-                <a href="/remarkup/futurest/index.html">
+                <a href="../../index.html">
                   <img
-                    src="/remarkup/futurest/image/Logo.svg"
+                    src="../../image/Logo.svg"
                     alt="Logo"
                     class="w-[158px]"
                   />
@@ -40,56 +83,50 @@
                 <div
                   class="flex items-center gap-[48px] list-none px-[24px] w-[486px] h-[48px] text-white text-[16px] font-[700] leading-[24px] bg-[white]/[0.08] backdrop-blur-sm rounded-[112px] border-[1px] border-[var(--border-color)] max-xxl:w-[33.75vw] max-xxl:px-[1.6vw] max-xxl:gap-[3.3vw]"
                 >
-                  <li class="cursor-pointer max-xxl:text-[1.1vw]">Feed</li>
-                  <li class="cursor-pointer max-xxl:text-[1.1vw]">Worldwide</li>
-                  <li class="cursor-pointer max-xxl:text-[1.1vw]">
-                    Promocodes
-                  </li>
-                  <li class="cursor-pointer max-xxl:text-[1.1vw]">About us</li>
+                  <a href="#" class="cursor-pointer max-xxl:text-[1.1vw]"
+                    >Feed</a
+                  >
+                  <a href="#" class="cursor-pointer max-xxl:text-[1.1vw]"
+                    >Worldwide</a
+                  >
+                  <a href="#" class="cursor-pointer max-xxl:text-[1.1vw]"
+                    >Promocodes</a
+                  >
+                  <a href="#" class="cursor-pointer max-xxl:text-[1.1vw]"
+                    >About us</a
+                  >
                 </div>
                 <div
                   class="flex gap-[16px] items-center w-[382px] h-[48px] max-xxl:w-w-full max-xxl:gap-[1.1vw] max-xxl:w-[30vw]"
                 >
                   <div
-                    class="flex justify-between items-center px-[24px] w-[254px] h-[48px] bg-[white]/[0.08] backdrop-blur-sm rounded-[112px] border-[1px] border-[var(--border-color)] max-xxl:px-[1.6vw] max-xxl:w-[18vw]"
+                    class="flex justify-between items-center px-[24px] w-[254px] h-[48px] bg-[white]/[0.08] backdrop-blur-sm rounded-[112px] border-[1px] border-[var(--border-color)] max-xxl:px-[1.6vw] max-xxl:w-[18vw] cursor-pointer"
                   >
                     <a
-                      href="/"
+                      href="#"
                       class="text-white font-[700] leading-[24px] max-xxl:text-[1.1vw]"
                     >
                       Become a Organizator
                     </a>
-                    <img src="/remarkup/futurest/image/Icon33.svg" alt="icon" />
+                    <img src="../../image/Icon33.svg" alt="icon" />
                   </div>
                   <div
-                    class="flex flex-cal flex-wrap justify-center items-center w-[48px] h-[48px] bg-[white]/[0.08] backdrop-blur-sm rounded-[112px] border-[1px] border-[var(--border-color)]"
+                    class="toggleButton cursor-pointer flex flex-cal flex-wrap justify-center items-center w-[48px] h-[48px] bg-[white]/[0.08] backdrop-blur-sm rounded-[112px] border-[1px] border-[var(--border-color)]"
                   >
-                    <a
-                      href="https://apps.apple.com/cz/app/remarkup/futurest-new-friends-events/id1564082295"
-                      class="h-7 w-7 flex items-center justify-center"
-                      target="_blank"
-                    >
-                      <img
-                        src="/remarkup/futurest/image/apple.svg"
-                        alt="/"
-                        class="w-5 h-5 menu-shop-img"
-                      />
-                    </a>
+                    <img
+                      src="../../image/google-play.svg"
+                      alt="/"
+                      class="w-5 h-5 menu-shop-img"
+                    />
                   </div>
                   <div
-                    class="flex flex-cal flex-wrap justify-center items-center w-[48px] h-[48px] bg-[white]/[0.08] backdrop-blur-sm rounded-[112px] border-[1px] border-[var(--border-color)]"
+                    class="toggleButton cursor-pointer flex flex-cal flex-wrap justify-center items-center w-[48px] h-[48px] bg-[white]/[0.08] backdrop-blur-sm rounded-[112px] border-[1px] border-[var(--border-color)]"
                   >
-                    <a
-                      href="https://play.google.com/store/apps/details?id=com.futurest&hl=en&gl=US"
-                      class="h-7 w-7 flex items-center justify-center"
-                      target="_blank"
-                    >
-                      <img
-                        src="/remarkup/futurest/image/google-play.svg"
-                        alt="/"
-                        class="w-5 h-5 menu-shop-img"
-                      />
-                    </a>
+                    <img
+                      src="../../image/apple.svg"
+                      alt="/"
+                      class="w-5 h-5 menu-shop-img"
+                    />
                   </div>
                 </div>
               </div>
@@ -97,10 +134,21 @@
                 <div class="flex gap-[16px] max-md:gap-[2vw]">
                   <div>
                     <div
-                      class="flex flex-cal flex-wrap justify-center items-center w-[48px] h-[48px] bg-[white]/[0.08] backdrop-blur-sm rounded-[112px] border-[1px] border-[var(--border-color)] cursor-pointer"
+                      class="cursor-pointer flex flex-cal flex-wrap justify-center items-center w-[48px] h-[48px] bg-[white]/[0.08] backdrop-blur-sm rounded-[112px] border-[1px] border-[var(--border-color)]"
+                    >
+                      <div id="hamburger" class="hamburger">
+                        <div class="hamburger-line line1"></div>
+                        <div class="hamburger-line line2"></div>
+                        <div class="hamburger-line line3"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="max-sm:hidden">
+                    <div
+                      class="toggleButton cursor-pointer flex flex-cal flex-wrap justify-center items-center w-[48px] h-[48px] bg-[white]/[0.08] backdrop-blur-sm rounded-[112px] border-[1px] border-[var(--border-color)]"
                     >
                       <img
-                        src="/remarkup/futurest/image/menu.svg"
+                        src="../../image/apple.svg"
                         alt="/"
                         class="w-5 h-5 menu-shop-img"
                       />
@@ -108,40 +156,65 @@
                   </div>
                   <div class="max-sm:hidden">
                     <div
-                      class="flex flex-cal flex-wrap justify-center items-center w-[48px] h-[48px] bg-[white]/[0.08] backdrop-blur-sm rounded-[112px] border-[1px] border-[var(--border-color)] cursor-pointer"
+                      class="toggleButton cursor-pointer flex flex-cal flex-wrap justify-center items-center w-[48px] h-[48px] bg-[white]/[0.08] backdrop-blur-sm rounded-[112px] border-[1px] border-[var(--border-color)]"
                     >
-                      <a
-                        href="https://apps.apple.com/cz/app/remarkup/futurest-new-friends-events/id1564082295"
-                        class="h-7 w-7 flex items-center justify-center"
-                        target="_blank"
-                      >
-                        <img
-                          src="/remarkup/futurest/image/apple.svg"
-                          alt="/"
-                          class="w-5 h-5 menu-shop-img"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="max-sm:hidden">
-                    <div
-                      class="flex flex-cal flex-wrap justify-center items-center w-[48px] h-[48px] bg-[white]/[0.08] backdrop-blur-sm rounded-[112px] border-[1px] border-[var(--border-color)] cursor-pointer"
-                    >
-                      <a
-                        href="https://play.google.com/store/apps/details?id=com.futurest&hl=en&gl=US"
-                        class="h-7 w-7 flex items-center justify-center"
-                        target="_blank"
-                      >
-                        <img
-                          src="/remarkup/futurest/image/google-play.svg"
-                          alt="/"
-                          class="w-5 h-5 menu-shop-img"
-                        />
-                      </a>
+                      <img
+                        src="../../image/google-play.svg"
+                        alt="/"
+                        class="w-5 h-5 menu-shop-img"
+                      />
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div
+          id="menu"
+          class="absolute top-0 left-0 z-50 bg-[#101010] w-full h-dvh"
+        >
+          <div
+            class="flex flex-col gap-[48px] justify-center items-center h-full"
+          >
+            <div
+              class="flex justify-between items-center px-[24px] w-[341px] h-[60px] bg-[white]/[0.08] backdrop-blur-sm rounded-[112px] border-[1px] border-[var(--border-color)] cursor-pointer"
+            >
+              <a
+                href="/"
+                class="text-white text-[24px] font-[700] leading-[24px]"
+              >
+                Become a Organizator
+              </a>
+              <img src="../../image/Icon33.svg" alt="icon" />
+            </div>
+            <div>
+              <a
+                href="#"
+                class="cursor-pointer text-white text-[24px] font-[700] leading-[36px]"
+                >Feed</a
+              >
+            </div>
+            <div>
+              <a
+                href="#"
+                class="cursor-pointer text-white text-[24px] font-[700] leading-[36px]"
+                >Worldwide</a
+              >
+            </div>
+            <div>
+              <a
+                href="#"
+                class="cursor-pointer text-white text-[24px] font-[700] leading-[36px]"
+                >Promocodes</a
+              >
+            </div>
+            <div>
+              <a
+                href="#"
+                class="cursor-pointer text-white text-[24px] font-[700] leading-[36px]"
+                >About us</a
+              >
             </div>
           </div>
         </div>
@@ -153,7 +226,7 @@
               <div class="swiper-slide">
                 <div class="w-full h-[760px] flex justify-center">
                   <img
-                    src="/remarkup/futurest/image/addele.svg.svg"
+                    src="../../image/addele.svg.svg"
                     alt=""
                     class="object-cover"
                   />
@@ -162,7 +235,7 @@
               <div class="swiper-slide">
                 <div class="w-full h-[760px] flex justify-center">
                   <img
-                    src="/remarkup/futurest/image/addele.svg.svg"
+                    src="../../image/addele.svg.svg"
                     alt=""
                     class="object-cover"
                   />
@@ -171,7 +244,7 @@
               <div class="swiper-slide">
                 <div class="w-full h-[760px] flex justify-center">
                   <img
-                    src="/remarkup/futurest/image/addele.svg.svg"
+                    src="../../image/addele.svg.svg"
                     alt=""
                     class="object-cover"
                   />
@@ -180,7 +253,7 @@
               <div class="swiper-slide">
                 <div class="w-full h-[760px] flex justify-center">
                   <img
-                    src="/remarkup/futurest/image/addele.svg.svg"
+                    src="../../image/addele.svg.svg"
                     alt=""
                     class="object-cover"
                   />
@@ -189,7 +262,7 @@
               <div class="swiper-slide">
                 <div class="w-full h-[760px] flex justify-center">
                   <img
-                    src="/remarkup/futurest/image/addele.svg.svg"
+                    src="../../image/addele.svg.svg"
                     alt=""
                     class="object-cover"
                   />
@@ -198,7 +271,7 @@
               <div class="swiper-slide">
                 <div class="w-full h-[760px] flex justify-center">
                   <img
-                    src="/remarkup/futurest/image/addele.svg.svg"
+                    src="../../image/addele.svg.svg"
                     alt=""
                     class="object-cover"
                   />
@@ -244,7 +317,7 @@
                     class="flex justify-center items-center gap-[8px] rounded-[32px] h-[40px] w-[40px] border border-white/[15%] bg-white/[5%]"
                   >
                     <img
-                      src="/remarkup/futurest/image/share.svg"
+                      src="../../image/share.svg"
                       alt=""
                       class="w-[24px] h-[24px] object-cover"
                     />
@@ -255,7 +328,7 @@
                     class="flex justify-center items-center gap-[8px] rounded-[32px] h-[40px] w-[40px] border border-white/[15%] bg-white/[5%]"
                   >
                     <img
-                      src="/remarkup/futurest/image/dots.svg"
+                      src="../../image/dots.svg"
                       alt=""
                       class="w-[24px] h-[24px] object-cover"
                     />
@@ -269,7 +342,7 @@
               >
                 <div class="flex items-start gap-[13px]">
                   <img
-                    src="/remarkup/futurest/image/location-big.svg"
+                    src="../../image/location-big.svg"
                     alt=""
                     class="w-[32px] h-[32px]"
                   />
@@ -288,7 +361,7 @@
                 </div>
                 <div class="flex items-start gap-[13px]">
                   <img
-                    src="/remarkup/futurest/image/calendar-big.svg"
+                    src="../../image/calendar-big.svg"
                     alt=""
                     class="w-[32px] h-[32px]"
                   />
@@ -314,7 +387,7 @@
                     Find Ticket
                   </p>
                   <img
-                    src="/remarkup/futurest/image/arrow-right.svg"
+                    src="../../image/arrow-right.svg"
                     alt=""
                     class="w-[16px] h-[16px]"
                   />
@@ -375,7 +448,7 @@
               >
                 <div class="flex gap-[13px]">
                   <img
-                    src="/remarkup/futurest/image/user-icon.svg"
+                    src="../../image/user-icon.svg"
                     alt=""
                     class="w-[32px] h-[32px]"
                   />
@@ -394,7 +467,7 @@
                 </div>
                 <div class="flex gap-[13px]">
                   <img
-                    src="/remarkup/futurest/image/flags.svg"
+                    src="../../image/flags.svg"
                     alt=""
                     class="w-[32px] h-[32px]"
                   />
@@ -413,7 +486,7 @@
                 </div>
                 <div class="flex gap-[13px]">
                   <img
-                    src="/remarkup/futurest/image/avatar.svg"
+                    src="../../image/avatar.svg"
                     alt=""
                     class="w-[32px] h-[32px]"
                   />
@@ -442,7 +515,7 @@
                 >
                   <div class="flex gap-[8px]">
                     <img
-                      src="/remarkup/futurest/image/top-right-arrow.svg"
+                      src="../../image/top-right-arrow.svg"
                       alt=""
                       class="w-[32px] h-[32px] max-xs:w-[24px] max-xs:h-[24px]"
                     />
@@ -461,7 +534,7 @@
                   </div>
                   <div class="flex gap-[8px]">
                     <img
-                      src="/remarkup/futurest/image/top-right-arrow.svg"
+                      src="../../image/top-right-arrow.svg"
                       alt=""
                       class="w-[32px] h-[32px] max-xs:w-[24px] max-xs:h-[24px]"
                     />
@@ -480,7 +553,7 @@
                   </div>
                   <div class="flex gap-[8px]">
                     <img
-                      src="/remarkup/futurest/image/top-right-arrow.svg"
+                      src="../../image/top-right-arrow.svg"
                       alt=""
                       class="w-[32px] h-[32px] max-xs:w-[24px] max-xs:h-[24px]"
                     />
@@ -499,7 +572,7 @@
                   </div>
                   <div class="flex gap-[8px]">
                     <img
-                      src="/remarkup/futurest/image/top-right-arrow.svg"
+                      src="../../image/top-right-arrow.svg"
                       alt=""
                       class="w-[32px] h-[32px] max-xs:w-[24px] max-xs:h-[24px]"
                     />
@@ -544,23 +617,22 @@
                       >
                         Explore more
                       </p>
-                      <img
-                        src="/remarkup/futurest/image/arrow-right.svg"
-                        alt="arrow"
-                        class="w-[24px] h-[24px] object-cover"
-                      />
+                      <a href="../top-event/top-event-explore.html">
+                        <img
+                          src="../../image/arrow-right.svg"
+                          alt="arrow"
+                          class="w-[24px] h-[24px] object-cover"
+                        />
+                      </a>
                     </button>
                   </div>
                 </div>
               </div>
               <div class="flex gap-[30px] overflow-hidden">
                 <div>
-                  <a href="/remarkup/futurest/pages/top-event/top-event.html">
+                  <a href="../top-event/top-event.html">
                     <div class="w-[195px] h-[350px]">
-                      <img
-                        src="/remarkup/futurest/image/event-block.svg"
-                        alt=""
-                      />
+                      <img src="../../image/event-block.svg" alt="" />
                       <div class="relative">
                         <div
                           class="absolute bottom-0 pt-[36.32px] pb-[18.16px] px-[9px]"
@@ -569,7 +641,7 @@
                             <div class="flex gap-[5.6px]">
                               <div>
                                 <img
-                                  src="/remarkup/futurest/image/avatarmain.svg"
+                                  src="../../image/avatarmain.svg"
                                   alt=""
                                   class="w-[27px] h-[27px] object-cover"
                                 />
@@ -585,7 +657,7 @@
                                   </h2>
                                   <div class="flex items-center justify-center">
                                     <img
-                                      src="/remarkup/futurest/image/verifiedcheck.svg"
+                                      src="../../image/verifiedcheck.svg"
                                       alt=""
                                       class="w-[13.6px] h-[13.6px]"
                                     />
@@ -614,7 +686,7 @@
                                     <div>
                                       <div class="flex gap-[4.5px]">
                                         <img
-                                          src="/remarkup/futurest/image/calendar.svg"
+                                          src="../../image/calendar.svg"
                                           alt=""
                                           class="w-[9px] h-[9px]"
                                         />
@@ -627,7 +699,7 @@
                                     </div>
                                     <div class="flex gap-[4.5px]">
                                       <img
-                                        src="/remarkup/futurest/image/location.svg"
+                                        src="../../image/location.svg"
                                         alt=""
                                         class="w-[9px] h-[9px]"
                                       />
@@ -648,12 +720,9 @@
                   </a>
                 </div>
                 <div>
-                  <a href="/remarkup/futurest/pages/top-event/top-event.html">
+                  <a href="../top-event/top-event.html">
                     <div class="w-[195px] h-[350px]">
-                      <img
-                        src="/remarkup/futurest/image/event-block.svg"
-                        alt=""
-                      />
+                      <img src="../../image/event-block.svg" alt="" />
                       <div class="relative">
                         <div
                           class="absolute bottom-0 pt-[36.32px] pb-[18.16px] px-[9px]"
@@ -662,7 +731,7 @@
                             <div class="flex gap-[5.6px]">
                               <div>
                                 <img
-                                  src="/remarkup/futurest/image/avatarmain.svg"
+                                  src="../../image/avatarmain.svg"
                                   alt=""
                                   class="w-[27px] h-[27px] object-cover"
                                 />
@@ -678,7 +747,7 @@
                                   </h2>
                                   <div class="flex items-center justify-center">
                                     <img
-                                      src="/remarkup/futurest/image/verifiedcheck.svg"
+                                      src="../../image/verifiedcheck.svg"
                                       alt=""
                                       class="w-[13.6px] h-[13.6px]"
                                     />
@@ -707,7 +776,7 @@
                                     <div>
                                       <div class="flex gap-[4.5px]">
                                         <img
-                                          src="/remarkup/futurest/image/calendar.svg"
+                                          src="../../image/calendar.svg"
                                           alt=""
                                           class="w-[9px] h-[9px]"
                                         />
@@ -720,7 +789,7 @@
                                     </div>
                                     <div class="flex gap-[4.5px]">
                                       <img
-                                        src="/remarkup/futurest/image/location.svg"
+                                        src="../../image/location.svg"
                                         alt=""
                                         class="w-[9px] h-[9px]"
                                       />
@@ -741,12 +810,9 @@
                   </a>
                 </div>
                 <div>
-                  <a href="/remarkup/futurest/pages/top-event/top-event.html">
+                  <a href="../top-event/top-event.html">
                     <div class="w-[195px] h-[350px]">
-                      <img
-                        src="/remarkup/futurest/image/event-block.svg"
-                        alt=""
-                      />
+                      <img src="../../image/event-block.svg" alt="" />
                       <div class="relative">
                         <div
                           class="absolute bottom-0 pt-[36.32px] pb-[18.16px] px-[9px]"
@@ -755,7 +821,7 @@
                             <div class="flex gap-[5.6px]">
                               <div>
                                 <img
-                                  src="/remarkup/futurest/image/avatarmain.svg"
+                                  src="../../image/avatarmain.svg"
                                   alt=""
                                   class="w-[27px] h-[27px] object-cover"
                                 />
@@ -771,7 +837,7 @@
                                   </h2>
                                   <div class="flex items-center justify-center">
                                     <img
-                                      src="/remarkup/futurest/image/verifiedcheck.svg"
+                                      src="../../image/verifiedcheck.svg"
                                       alt=""
                                       class="w-[13.6px] h-[13.6px]"
                                     />
@@ -800,7 +866,7 @@
                                     <div>
                                       <div class="flex gap-[4.5px]">
                                         <img
-                                          src="/remarkup/futurest/image/calendar.svg"
+                                          src="../../image/calendar.svg"
                                           alt=""
                                           class="w-[9px] h-[9px]"
                                         />
@@ -813,7 +879,7 @@
                                     </div>
                                     <div class="flex gap-[4.5px]">
                                       <img
-                                        src="/remarkup/futurest/image/location.svg"
+                                        src="../../image/location.svg"
                                         alt=""
                                         class="w-[9px] h-[9px]"
                                       />
@@ -834,12 +900,9 @@
                   </a>
                 </div>
                 <div>
-                  <a href="/remarkup/futurest/pages/top-event/top-event.html">
+                  <a href="../top-event/top-event.html">
                     <div class="w-[195px] h-[350px]">
-                      <img
-                        src="/remarkup/futurest/image/event-block.svg"
-                        alt=""
-                      />
+                      <img src="../../image/event-block.svg" alt="" />
                       <div class="relative">
                         <div
                           class="absolute bottom-0 pt-[36.32px] pb-[18.16px] px-[9px]"
@@ -848,7 +911,7 @@
                             <div class="flex gap-[5.6px]">
                               <div>
                                 <img
-                                  src="/remarkup/futurest/image/avatarmain.svg"
+                                  src="../../image/avatarmain.svg"
                                   alt=""
                                   class="w-[27px] h-[27px] object-cover"
                                 />
@@ -864,7 +927,7 @@
                                   </h2>
                                   <div class="flex items-center justify-center">
                                     <img
-                                      src="/remarkup/futurest/image/verifiedcheck.svg"
+                                      src="../../image/verifiedcheck.svg"
                                       alt=""
                                       class="w-[13.6px] h-[13.6px]"
                                     />
@@ -893,7 +956,7 @@
                                     <div>
                                       <div class="flex gap-[4.5px]">
                                         <img
-                                          src="/remarkup/futurest/image/calendar.svg"
+                                          src="../../image/calendar.svg"
                                           alt=""
                                           class="w-[9px] h-[9px]"
                                         />
@@ -906,7 +969,7 @@
                                     </div>
                                     <div class="flex gap-[4.5px]">
                                       <img
-                                        src="/remarkup/futurest/image/location.svg"
+                                        src="../../image/location.svg"
                                         alt=""
                                         class="w-[9px] h-[9px]"
                                       />
@@ -927,12 +990,9 @@
                   </a>
                 </div>
                 <div>
-                  <a href="/remarkup/futurest/pages/top-event/top-event.html">
+                  <a href="../top-event/top-event.html">
                     <div class="w-[195px] h-[350px]">
-                      <img
-                        src="/remarkup/futurest/image/event-block.svg"
-                        alt=""
-                      />
+                      <img src="../../image/event-block.svg" alt="" />
                       <div class="relative">
                         <div
                           class="absolute bottom-0 pt-[36.32px] pb-[18.16px] px-[9px]"
@@ -941,7 +1001,7 @@
                             <div class="flex gap-[5.6px]">
                               <div>
                                 <img
-                                  src="/remarkup/futurest/image/avatarmain.svg"
+                                  src="../../image/avatarmain.svg"
                                   alt=""
                                   class="w-[27px] h-[27px] object-cover"
                                 />
@@ -957,7 +1017,7 @@
                                   </h2>
                                   <div class="flex items-center justify-center">
                                     <img
-                                      src="/remarkup/futurest/image/verifiedcheck.svg"
+                                      src="../../image/verifiedcheck.svg"
                                       alt=""
                                       class="w-[13.6px] h-[13.6px]"
                                     />
@@ -986,7 +1046,7 @@
                                     <div>
                                       <div class="flex gap-[4.5px]">
                                         <img
-                                          src="/remarkup/futurest/image/calendar.svg"
+                                          src="../../image/calendar.svg"
                                           alt=""
                                           class="w-[9px] h-[9px]"
                                         />
@@ -999,7 +1059,7 @@
                                     </div>
                                     <div class="flex gap-[4.5px]">
                                       <img
-                                        src="/remarkup/futurest/image/location.svg"
+                                        src="../../image/location.svg"
                                         alt=""
                                         class="w-[9px] h-[9px]"
                                       />
@@ -1020,12 +1080,9 @@
                   </a>
                 </div>
                 <div>
-                  <a href="/remarkup/futurest/pages/top-event/top-event.html">
+                  <a href="../top-event/top-event.html">
                     <div class="w-[195px] h-[350px]">
-                      <img
-                        src="/remarkup/futurest/image/event-block.svg"
-                        alt=""
-                      />
+                      <img src="../../image/event-block.svg" alt="" />
                       <div class="relative">
                         <div
                           class="absolute bottom-0 pt-[36.32px] pb-[18.16px] px-[9px]"
@@ -1034,7 +1091,7 @@
                             <div class="flex gap-[5.6px]">
                               <div>
                                 <img
-                                  src="/remarkup/futurest/image/avatarmain.svg"
+                                  src="../../image/avatarmain.svg"
                                   alt=""
                                   class="w-[27px] h-[27px] object-cover"
                                 />
@@ -1050,7 +1107,7 @@
                                   </h2>
                                   <div class="flex items-center justify-center">
                                     <img
-                                      src="/remarkup/futurest/image/verifiedcheck.svg"
+                                      src="../../image/verifiedcheck.svg"
                                       alt=""
                                       class="w-[13.6px] h-[13.6px]"
                                     />
@@ -1079,7 +1136,7 @@
                                     <div>
                                       <div class="flex gap-[4.5px]">
                                         <img
-                                          src="/remarkup/futurest/image/calendar.svg"
+                                          src="../../image/calendar.svg"
                                           alt=""
                                           class="w-[9px] h-[9px]"
                                         />
@@ -1092,7 +1149,7 @@
                                     </div>
                                     <div class="flex gap-[4.5px]">
                                       <img
-                                        src="/remarkup/futurest/image/location.svg"
+                                        src="../../image/location.svg"
                                         alt=""
                                         class="w-[9px] h-[9px]"
                                       />
@@ -1141,10 +1198,7 @@
                         class="flex justify-center items-center rounded-[8px] w-[163px] h-[56px] font-[600] bg-white/[5%] border border-[var(--button-text-orange)] gap-[8px] text-[var(--button-text-orange)]"
                       >
                         Contact us
-                        <img
-                          src="/remarkup/futurest/image/arrow-right-orange.svg"
-                          alt=""
-                        />
+                        <img src="../../image/arrow-right-orange.svg" alt="" />
                       </button>
                     </div>
                   </div>
@@ -1338,7 +1392,7 @@
             class="relative w-[1440px] max-xxl:w-full flex flex-col justify-center items-center"
           >
             <img
-              src="/remarkup/futurest/image/footer-background.svg"
+              src="../../image/footer-background.svg"
               alt=""
               class="h-[393px] w-full object-center"
             />
@@ -1347,7 +1401,7 @@
             >
               <div class="mb-[24px] flex justify-center items-center">
                 <img
-                  src="/remarkup/futurest/image/Logo.svg"
+                  src="../../image/Logo.svg"
                   alt=""
                   class="w-[206px] h-[45px] object-cover"
                 />
@@ -1357,7 +1411,7 @@
                   class="flex justify-center items-center w-[48px] h-[48px] rounded-[32px] border border-white/[15%] bg-white/[5%]"
                 >
                   <img
-                    src="/remarkup/futurest/image/apple.svg"
+                    src="../../image/apple.svg"
                     alt=""
                     class="w-[24px] h-[24px]"
                   />
@@ -1366,7 +1420,7 @@
                   class="flex justify-center items-center w-[48px] h-[48px] rounded-[32px] border border-white/[15%] bg-white/[5%]"
                 >
                   <img
-                    src="/remarkup/futurest/image/google-play.svg"
+                    src="../../image/google-play.svg"
                     alt=""
                     class="w-[24px] h-[24px]"
                   />
@@ -1375,7 +1429,7 @@
                   class="flex justify-center items-center w-[48px] h-[48px] rounded-[32px] border border-white/[15%] bg-white/[5%]"
                 >
                   <img
-                    src="/remarkup/futurest/image/telegram.svg"
+                    src="../../image/telegram.svg"
                     alt=""
                     class="w-[24px] h-[24px]"
                   />
@@ -1423,7 +1477,7 @@
                     class="flex gap-[12px] max-xs:flex-col max-xs:items-center max-xs:justify-center max-xs:gap-0"
                   >
                     <div class="flex justify-center w-[24px] h-[24px]">
-                      <img src="/remarkup/futurest/image/call.svg" alt="/" />
+                      <img src="../../image/call.svg" alt="/" />
                     </div>
                     <div
                       class="max-xs:flex max-xs:flex-col max-xs:items-center max-xs:justify-center"
@@ -1443,7 +1497,7 @@
                     class="flex gap-[12px] max-xs:flex-col max-xs:items-center max-xs:justify-center max-xs:gap-0"
                   >
                     <div class="flex justify-center w-[24px] h-[24px]">
-                      <img src="/remarkup/futurest/image/sms.svg" alt="/" />
+                      <img src="../../image/sms.svg" alt="/" />
                     </div>
                     <div
                       class="max-xs:flex max-xs:flex-col max-xs:items-center max-xs:justify-center"
@@ -1463,10 +1517,7 @@
                     class="flex gap-[12px] max-xs:flex-col max-xs:items-center max-xs:justify-center max-xs:gap-0"
                   >
                     <div class="flex justify-center w-[24px] h-[24px]">
-                      <img
-                        src="/remarkup/futurest/image/location-big.svg"
-                        alt="/"
-                      />
+                      <img src="../../image/location-big.svg" alt="/" />
                     </div>
                     <div
                       class="max-xs:flex max-xs:flex-col max-xs:items-center max-xs:justify-center"
@@ -1530,6 +1581,6 @@
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="/remarkup/futurest/pages/top-event/top-event.js"></script>
+    <script src="./top-event.js"></script>
   </body>
 </html>
